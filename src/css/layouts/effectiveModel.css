@@ -1,0 +1,101 @@
+.effectiveModel {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #010101;
+}
+
+.effectiveModelContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.effectiveModelTitle {
+  display: block;
+  width: 100%;
+  max-width: 1140px;
+  margin-bottom: 40px;
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff401;
+}
+
+.effectiveModelConfig {
+  display: block;
+  width: 100%;
+  max-width: 563px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.effectiveModelTableContainer {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.effectiveModelTableRow {
+  display: flex;
+  align-items: center;
+}
+
+.effectiveModelTableCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px 20px 30px;
+  border: 1px solid #515151;
+  border-radius: 5px;
+}
+
+.effectiveModelTableCard > img {
+  width: 30px;
+  height: 30px;
+}
+
+.effectiveModelTableText {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.effectiveModelYouGet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 832px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  border: 1px solid #515151;
+  border-radius: 5px;
+  background-color: #fff401;
+}
+
+.effectiveModelYouGet > img {
+  width: 80px;
+  height: 80px;
+}
+
+.effectiveModelYouGetText {
+  display: block;
+  width: 100%;
+  max-width: 719px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}

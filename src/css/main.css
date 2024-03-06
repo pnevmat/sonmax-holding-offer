@@ -3,3 +3,5 @@
 @import './utils/fonts.css';
 @import './layouts/header.css';
 @import './layouts//keyRole.css';
+@import './layouts//effectiveModel.css';
+@import './layouts//program.css';

@@ -1,0 +1,148 @@
+.program {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #010101;
+}
+
+.programContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.programTitle,
+.programSubtitle {
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.programTitle {
+  display: block;
+  width: 100%;
+  max-width: 1133px;
+  margin-bottom: 30px;
+
+  color: #ffffff;
+}
+
+.programYellow {
+  color: #fff401;
+}
+
+.programSubtitle {
+  display: block;
+  width: 100%;
+  max-width: 830px;
+  margin-bottom: 50px;
+}
+
+.programLessonsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.programLessonCard {
+  width: 100%;
+  max-width: 1120px;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+
+.programStepNumber {
+  width: 100%;
+  max-width: 138px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.programStepText {
+  width: 100%;
+  max-width: 283px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: #fff401;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.programLessonCardTitle {
+  display: block;
+  width: 100%;
+  max-width: 396px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.programLessonCardListWrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.programLessonCardList {
+  width: 100%;
+  max-width: 536px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.programLessonCardListText {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.programLessonCardYouGetResult {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.programLessonCardYouGet {
+  display: block;
+  width: 100%;
+  max-width: 518px;
+  border: 1px solid #515151;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
