@@ -1,0 +1,32 @@
+{
+  "name": "sonmax-holding-transform",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://pnevmat.github.io/sonmax-holding-transform",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build",
+    "predeploy": "npm run build -- --public-url=/sonmax-holding-transform/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnevmat/sonmax-holding-transform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pnevmat/sonmax-holding-transform/issues"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.11.0",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.11.0",
+    "posthtml-include": "^2.0.1"
+  }
+}
