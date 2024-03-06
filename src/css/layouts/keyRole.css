@@ -1,0 +1,99 @@
+.keyRole {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #010101;
+}
+
+.keyRoleContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.keyRoleTextContainer {
+  width: 100%;
+  max-width: 575px;
+}
+
+.keyRoleTitleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.keyRoleTitle {
+  width: 100%;
+  max-width: 485px;
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff401;
+}
+
+.keyRoleText {
+  display: block;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.short {
+  max-width: 546px;
+}
+
+.gray {
+  color: #ffffffb2;
+}
+
+.keyRoleCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+  max-width: 522px;
+}
+
+.keyRoleCard {
+  width: 100%;
+}
+
+.keyRoleCardHeader {
+  display: block;
+  width: 100%;
+  max-width: 482px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #202020;
+}
+
+.keyRoleCardTextWrapper {
+  padding: 20px;
+  border: 1px solid #515151;
+  border-radius: 5px;
+}
+
+.keyRoleCardText {
+  display: block;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}

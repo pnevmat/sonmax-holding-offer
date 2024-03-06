@@ -55,10 +55,6 @@
   color: #ffffff;
 }
 
-.bold {
-  font-weight: 700;
-}
-
 .strategicContainer {
   display: flex;
   flex-direction: column;
@@ -72,7 +68,6 @@
   display: block;
   margin-bottom: 20px;
   font-size: 46px;
-  font-weight: 700;
   line-height: 55px;
   letter-spacing: 0em;
   text-align: left;
@@ -84,7 +79,6 @@
   display: block;
   max-width: 420px;
   font-size: 24px;
-  font-weight: 400;
   line-height: 36px;
   letter-spacing: 0em;
   text-align: left;
@@ -125,7 +119,6 @@
     );
   box-shadow: 0px 4px 34px 0px #fff40199;
   font-size: 18px;
-  font-weight: 700;
   line-height: 22px;
   letter-spacing: 0em;
   text-transform: uppercase;

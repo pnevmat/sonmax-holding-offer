@@ -44,3 +44,11 @@ button:focus {
 .is-hiden {
   display: none;
 }
+
+.normal {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
