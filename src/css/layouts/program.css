@@ -35,6 +35,18 @@
   color: #fff401;
 }
 
+.programSubtitleWrapper {
+  position: relative;
+}
+
+.programSubtitleArrow {
+  position: absolute;
+  top: -8%;
+  left: 89%;
+  width: 49px;
+  height: 49px;
+}
+
 .programSubtitle {
   display: block;
   width: 100%;
@@ -58,8 +70,9 @@
 }
 
 .programStepNumber {
+  display: inline-block;
   width: 100%;
-  max-width: 138px;
+  max-width: 105px;
   padding: 10px 20px 10px 20px;
   border-radius: 10px;
   background-color: #000000;
@@ -72,8 +85,9 @@
 }
 
 .programStepText {
+  display: inline-block;
   width: 100%;
-  max-width: 283px;
+  max-width: fit-content;
   padding: 10px 20px 10px 20px;
   border-radius: 10px;
   background-color: #fff401;
@@ -89,7 +103,6 @@
   display: block;
   width: 100%;
   max-width: 396px;
-  margin-top: 24px;
   margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
@@ -97,10 +110,19 @@
   text-align: left;
 }
 
+.medium {
+  max-width: 480px;
+}
+
+.long {
+  max-width: 540px;
+}
+
 .programLessonCardListWrapper {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  margin-top: 35px;
 }
 
 .programLessonCardList {
@@ -108,6 +130,10 @@
   max-width: 536px;
   padding-left: 20px;
   list-style: disc;
+}
+
+.listSort {
+  max-width: 500px;
 }
 
 .programLessonCardListText {
@@ -124,8 +150,11 @@
 }
 
 .programLessonCardYouGetResult {
-  display: block;
-  margin-bottom: 20px;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #fff401;
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0em;
@@ -136,13 +165,30 @@
 .programLessonCardYouGet {
   display: block;
   width: 100%;
-  max-width: 518px;
-  border: 1px solid #515151;
-  border-radius: 10px;
+  max-width: 520px;
   padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.textNormal {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.programLessonCardYouGetMB {
+  margin-bottom: 20px;
+}
+
+.smallStep {
+  align-items: flex-start;
 }
