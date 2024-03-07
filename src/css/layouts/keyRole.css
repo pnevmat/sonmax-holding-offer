@@ -75,7 +75,7 @@
   max-width: 482px;
   padding: 20px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: #ff7070;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0em;
@@ -83,10 +83,23 @@
   color: #202020;
 }
 
+.green {
+  background-color: #23d64a;
+}
+
 .keyRoleCardTextWrapper {
+  position: relative;
   padding: 20px;
   border: 1px solid #515151;
   border-radius: 5px;
+}
+
+.keyRoleCardIcon {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 35px;
+  height: 35px;
 }
 
 .keyRoleCardText {
