@@ -1,0 +1,133 @@
+.reviews {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #010101;
+}
+
+.reviewsContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.reviewsTitle {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
+  text-transform: uppercase;
+}
+
+.reviewsCardsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.reviewsCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.reviewsCardVideoContainer {
+  width: 100%;
+  max-width: 380px;
+  height: 580px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  background-image: url('../../images/review-bacground.png');
+  background-size: cover;
+}
+
+.reviewsCardReviewer {
+  display: flex;
+  width: 100%;
+  max-width: 380px;
+}
+
+.reviewsCardReviewerImgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86px;
+  height: 86px;
+  border: 2px solid #ffffff33;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.reviewsCardReviewerImg {
+  width: 100%;
+  max-width: 68px;
+}
+
+.reviewsCardReviewerNameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 276px;
+}
+
+.reviewsCardReviewerName,
+.reviewsCardReviewerTg {
+  display: block;
+  width: 100%;
+  max-width: 276px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.reviewsCardReviewerTg {
+  font-style: italic;
+  color: #ffffff99;
+}
+
+.reviewsBtnContainer {
+  text-align: center;
+}
+
+.reviewsBtnWrapper {
+  display: inline-block;
+  width: 100%;
+  max-width: 360px;
+  padding: 10px;
+  border: 1px solid #515151;
+  border-radius: 20px;
+}
+
+.reviewsBtn {
+  width: 100%;
+  max-width: 360px;
+  height: 88px;
+  padding: 25px 40px 25px 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: linear-gradient(0deg, #fff401, #fff401),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: 0px 4px 34px 0px #fff40199;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
