@@ -1,0 +1,99 @@
+.guarantee {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #010101;
+}
+
+.guaranteeContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.guaranteeTitle {
+  display: block;
+  margin-bottom: 42px;
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
+}
+
+.guaranteeCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1120px;
+  padding: 30px 40px 30px 40px;
+  border: 1px solid #515151;
+  border-radius: 20px;
+}
+
+.guaranteeTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 710px;
+}
+
+.guaranteeTextImg {
+  width: 100%;
+  max-width: 167px;
+}
+
+.guaranteeTextWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 503px;
+}
+
+.guaranteeBraketsImg {
+  width: 27px;
+  height: 22px;
+}
+
+.guaranteeText {
+  display: inline-block;
+  width: 100%;
+  max-width: 456px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.guaranteeSignContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 233px;
+}
+
+.guaranteeSignImg {
+  width: 100%;
+  max-width: 193px;
+}
+
+.guaranteeSignText {
+  display: inline-block;
+  width: 100%;
+  max-width: 233px;
+  padding-top: 10px;
+  margin-top: 3px;
+  border-top: 1px solid #515151;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #fff401;
+}

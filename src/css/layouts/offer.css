@@ -39,8 +39,6 @@
 
 .offerContentContainer {
   position: relative;
-  /* display: flex;
-  align-items: center; */
 }
 
 .offerContentWrapper {
@@ -454,12 +452,6 @@
   text-align: left;
   color: #ffffff;
   text-transform: uppercase;
-
-  /* font-family: Gotham Pro;
-font-size: 96px;
-line-height: 113px;
-letter-spacing: 0em;
-text-align: left; */
 }
 
 .offerContentSuperTitleYellow {
