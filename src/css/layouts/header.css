@@ -124,6 +124,185 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .contentContainer {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .logoContainer {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .onlineContainer {
+    margin-bottom: 300px;
+  }
+
+  .strategicTitle {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .strategicText {
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .header {
+    background-size: 135% 37%, cover;
+    background-position: 49.5% 33%, top;
+  }
+
+  .contentContainer {
+    max-width: 260px;
+  }
+
+  .headerBtnWrapper {
+    max-width: 238px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .header {
+    background-size: 125% 37%, cover;
+    background-position: 49.5% 33%, top;
+  }
+
+  .contentContainer {
+    max-width: 280px;
+  }
+
+  .headerBtnWrapper {
+    max-width: 258px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .header {
+    background-size: 110% 37%, cover;
+    background-position: 51% 33%, top;
+  }
+
+  .contentContainer {
+    max-width: 300px;
+  }
+
+  .headerBtnWrapper {
+    max-width: 278px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .header {
+    background-size: 103% 37%, cover;
+    background-position: 50% 33%, top;
+  }
+
+  .contentContainer {
+    max-width: 320px;
+  }
+
+  .headerBtnWrapper {
+    max-width: 298px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .header {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .header {
+    max-width: 420px;
+    background-size: 91% 37%, cover;
+    background-position: 50% 33%, top;
+  }
+
+  .contentContainer {
+    max-width: 360px;
+  }
+
+  .headerBtnWrapper {
+    max-width: 338px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    max-width: 768px;
+    background-size: 92.5% 58%, cover;
+    background-position: 160% 5%, top;
+  }
+
+  .contentContainer {
+    padding-left: 40px;
+  }
+
+  .logoContainer {
+    margin-bottom: 40px;
+  }
+
+  .onlineContainer {
+    margin-bottom: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    max-width: 1024px;
+    background-size: 96% 68%, cover;
+    background-position: 50% 5%, top;
+  }
+
+  .contentContainer {
+    padding-left: 40px;
+  }
+
+  .logoContainer {
+    margin-bottom: 40px;
+  }
+
+  .onlineContainer {
+    margin-bottom: 500px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .header {
+    max-width: 1280px;
+    background-size: 70% 96%, cover;
+    background-position: 110% 90%, top;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .header {
+    max-width: 1360px;
+    background-size: 66% 96%, cover;
+    background-position: 105% 90%, top;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .header {
+    max-width: 1700px;
+    background-size: 53% 96%, cover;
+    background-position: 82% 90%, top;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .header {
     max-width: 1920px;
