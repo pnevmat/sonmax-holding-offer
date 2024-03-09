@@ -1,35 +1,126 @@
 .faq {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #010101;
 }
 
 .faqContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
 }
 
 .faqTitle {
+  display: block;
+  width: 100%;
+  max-width: 1047px;
+  margin-bottom: 40px;
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
 }
 
 .faqQuestionsContainer {
 }
 
 .faqQuestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px solid #ffffff33;
+}
+
+.faqQuestionTexContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+  width: 90%;
 }
 
 .faqQuestionTextWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 29px;
+  overflow-y: hidden;
+  transition-property: height;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.faqQuestionTextWrapper.open {
+  height: 89px;
 }
 
 .faqQuestionNumber {
+  width: 100%;
+  max-width: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff80;
 }
 
 .faqQuestionText {
+  display: inline-block;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.faqQuestionAnswer {
+  display: inline-block;
+  width: 100%;
+  max-width: 845px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff99;
 }
 
 .faqBtnContainer {
+  width: 54px;
+  height: 54px;
 }
 
 .faqBtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border: 1px solid #ffffff33;
+  border-radius: 100px;
 }
 
 .faqBtnPlus {
+  width: 24px;
+  height: 24px;
 }
 
 .faqBtnMinus {
+  width: 24px;
+  height: 3px;
+}
+
+.faqBtnWrapper:hover,
+.faqBtnPlus:hover,
+.faqBtnMinus:hover {
+  cursor: pointer;
 }
