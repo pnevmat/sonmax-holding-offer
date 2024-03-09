@@ -1,9 +1,3 @@
-// faq
-// q:1
-// qBtn:1
-// plus:1
-// minus:1
-
 const length = document.getElementById('faq').children.length;
 
 for (let i = 0; i < length; i++) {

@@ -1,0 +1,103 @@
+.footer {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #010101;
+}
+
+.footerContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.footerContentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.rightsText,
+.confidencialText {
+  display: inline-block;
+  width: 100%;
+  max-width: 461px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.confidencialText {
+  line-height: 17px;
+  color: #ffffff99;
+}
+
+.footerLogo {
+  width: 95px;
+  height: 82px;
+}
+
+.developersContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 304px;
+}
+
+.developerCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 142px;
+}
+
+.developerImg {
+  width: 100%;
+  max-width: 50px;
+}
+
+.developerTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+  width: 100%;
+  max-width: 74px;
+}
+
+.developerName {
+  display: inline-block;
+  width: 100%;
+  max-width: 50px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.developerWebsite {
+  display: inline-block;
+  width: 100%;
+  max-width: 74px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
