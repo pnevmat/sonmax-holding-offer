@@ -45,8 +45,11 @@
   height: 580px;
   border-radius: 10px;
   background-color: #ffffff;
-  background-image: url('../../images/review-bacground.png');
-  background-size: cover;
+  background-image: url('../../images/play-btn.png'),
+    url('../../images/review-bacground.png');
+  background-size: 20% 13%, cover;
+  background-position: 50% 50%, top;
+  background-repeat: no-repeat;
 }
 
 .reviewsCardReviewer {
