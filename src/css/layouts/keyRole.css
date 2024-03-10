@@ -10,8 +10,6 @@
   justify-content: space-between;
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .keyRoleTextContainer {
@@ -109,4 +107,221 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .keyRole {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .keyRoleContainer {
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-direction: column;
+  }
+
+  .keyRoleTitle {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .keyRoleTextContainer,
+  .keyRoleTitleWrapper {
+    margin-bottom: 20px;
+  }
+
+  .keyRoleText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .keyRoleText.gray {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .keyRoleCardHeader {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .keyRoleCardIcon {
+    top: 10%;
+    left: 5%;
+    width: 24px;
+    height: 24px;
+  }
+
+  .keyRoleCardIcon.rotate {
+    transform: rotate(-30deg);
+  }
+
+  .keyRoleCardText {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .keyRoleContainer {
+    max-width: 260px;
+  }
+
+  .keyRoleTextContainer {
+    max-width: 260px;
+  }
+
+  .keyRoleCardHeader {
+    max-width: 220px;
+  }
+
+  .keyRoleCardTextWrapper {
+    max-width: 278px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .keyRoleContainer {
+    max-width: 280px;
+  }
+
+  .keyRoleTextContainer {
+    max-width: 280px;
+  }
+
+  .keyRoleCardHeader {
+    max-width: 240px;
+  }
+
+  .keyRoleCardTextWrapper {
+    max-width: 278px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .keyRoleContainer {
+    max-width: 300px;
+  }
+
+  .keyRoleTextContainer {
+    max-width: 300px;
+  }
+
+  .keyRoleCardHeader {
+    max-width: 260px;
+  }
+
+  .keyRoleCardTextWrapper {
+    max-width: 278px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .keyRoleContainer {
+    max-width: 320px;
+  }
+
+  .keyRoleTextContainer {
+    max-width: 320px;
+  }
+
+  .keyRoleCardHeader {
+    max-width: 280px;
+  }
+
+  .keyRoleCardTextWrapper {
+    max-width: 278px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .keyRole {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .keyRoleContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .keyRole {
+    max-width: 420px;
+  }
+
+  .keyRoleContainer {
+    max-width: 360px;
+  }
+
+  .keyRoleCardHeader {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .keyRole {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .keyRole {
+    max-width: 688px;
+  }
+
+  .keyRoleTitleWrapper {
+    margin-bottom: 30px;
+  }
+
+  .keyRoleCardHeader {
+    max-width: 304px;
+  }
+
+  .keyRoleCardIcon {
+    position: static;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .keyRole {
+    max-width: 944px;
+  }
+
+  .keyRoleTitleWrapper {
+    margin-bottom: 30px;
+  }
+
+  .keyRoleCardHeader {
+    max-width: 432px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .keyRole {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .keyRole {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .keyRole {
+    max-width: 1700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .keyRole {
+    max-width: 1920px;
+  }
 }
