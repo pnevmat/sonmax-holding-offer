@@ -8,8 +8,6 @@
 .effectiveModelContainer {
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
 }
 
@@ -46,6 +44,19 @@
 .effectiveModelTableRow {
   display: flex;
   align-items: center;
+  width: 100%;
+}
+
+.rowWidth1 {
+  max-width: 994px;
+}
+
+.rowWidth2 {
+  max-width: 1000px;
+}
+
+.rowWidth3 {
+  max-width: 796px;
 }
 
 .effectiveModelTableCard {
@@ -57,17 +68,67 @@
   border-radius: 5px;
 }
 
+.width1 {
+  width: 39.5%;
+}
+
+.width2 {
+  width: 60.5%;
+}
+
+.width3 {
+  width: 51%;
+}
+
+.width4 {
+  width: 49%;
+}
+
+.width5 {
+  width: 54%;
+}
+
+.width6 {
+  width: 46%;
+}
+
 .effectiveModelTableCard > img {
   width: 30px;
   height: 30px;
 }
 
 .effectiveModelTableText {
-  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  font-size: 17px;
   line-height: 27px;
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
+}
+
+.textWidth1 {
+  width: 84%;
+}
+
+.textWidth2 {
+  width: 90%;
+}
+
+.textWidth3 {
+  width: 88%;
+}
+
+.textWidth4 {
+  width: 88%;
+}
+
+.textWidth5 {
+  width: 85%;
+}
+
+.textWidth6 {
+  width: 83%;
 }
 
 .effectiveModelYouGetWrapper {
@@ -135,4 +196,256 @@
   line-height: 22px;
   letter-spacing: 0em;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .effectiveModel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .effectiveModelContainer {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .effectiveModelTitle {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .effectiveModelConfig {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .effectiveModelTableRow {
+    flex-direction: column;
+  }
+
+  .effectiveModelTableCard {
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .effectiveModelTableText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .effectiveModelYouGetWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .effectiveModelYouGet {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .effectiveModelTableText {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .effectiveModelContainer {
+    max-width: 260px;
+  }
+
+  .effectiveModelTableCard {
+    max-width: 238px;
+  }
+
+  .effectiveModelYouGet {
+    max-width: 218px;
+  }
+
+  .effectiveModelYouGetBtnWrapper {
+    max-width: 238px;
+  }
+
+  .effectiveModelTableText {
+    max-width: 200px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .effectiveModelContainer {
+    max-width: 280px;
+  }
+
+  .effectiveModelTableCard {
+    max-width: 258px;
+  }
+
+  .effectiveModelYouGet {
+    max-width: 238px;
+  }
+
+  .effectiveModelYouGetBtnWrapper {
+    max-width: 258px;
+  }
+
+  .effectiveModelTableText {
+    max-width: 200px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .effectiveModelContainer {
+    max-width: 300px;
+  }
+
+  .effectiveModelTableCard {
+    max-width: 278px;
+  }
+
+  .effectiveModelYouGet {
+    max-width: 258px;
+  }
+
+  .effectiveModelYouGetBtnWrapper {
+    max-width: 278px;
+  }
+
+  .effectiveModelTableText {
+    max-width: 220px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .effectiveModelContainer {
+    max-width: 320px;
+  }
+
+  .effectiveModelTableCard {
+    max-width: 298px;
+  }
+
+  .effectiveModelYouGet {
+    max-width: 278px;
+  }
+
+  .effectiveModelYouGetBtnWrapper {
+    max-width: 298px;
+  }
+
+  .effectiveModelTableText {
+    max-width: 240px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .effectiveModel {
+    max-width: 420px;
+  }
+
+  .effectiveModelContainer {
+    max-width: 360px;
+  }
+
+  .effectiveModelTableCard {
+    width: 100%;
+    max-width: 338px;
+  }
+
+  .effectiveModelYouGet {
+    max-width: 318px;
+  }
+
+  .effectiveModelYouGetBtnWrapper {
+    max-width: 338px;
+  }
+
+  .effectiveModelTableText {
+    max-width: 240px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .effectiveModel {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .effectiveModel {
+    max-width: 688px;
+  }
+
+  .effectiveModelYouGetWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .effectiveModelYouGet {
+    max-width: 646px;
+  }
+
+  .textWidth1 {
+    width: 75%;
+  }
+
+  .textWidth2 {
+    width: 84%;
+  }
+
+  .textWidth3 {
+    width: 82%;
+  }
+
+  .textWidth4 {
+    width: 82%;
+  }
+
+  .textWidth5 {
+    width: 83%;
+  }
+
+  .textWidth6 {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .effectiveModel {
+    max-width: 944px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .effectiveModelContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .effectiveModel {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .effectiveModel {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .effectiveModel {
+    max-width: 1700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .effectiveModel {
+    max-width: 1920px;
+  }
 }
