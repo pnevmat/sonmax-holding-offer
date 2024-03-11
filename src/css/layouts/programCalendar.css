@@ -8,8 +8,6 @@
 .programCalendarContainer {
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
 }
 
@@ -154,4 +152,260 @@
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .programCalendar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .programCalendarTitle {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .programCalendarCardContainer,
+  .programCalendarCardWrapper {
+    gap: 10px;
+  }
+
+  .programCalendarCardWrapper {
+    flex-direction: column;
+  }
+
+  .programCalendarCard {
+    padding: 20px;
+  }
+
+  .programCalendarDate,
+  .programCalendarTime {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .programCalendarDate.programCalendarDateLong {
+    max-width: 160px;
+  }
+
+  .programCalendarText {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .programCalendarBenefitsContainer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 20px 30px 20px;
+    margin-top: 20px;
+  }
+
+  .programCalendarBenefitsTitle {
+    font-size: 28px;
+    line-height: 31px;
+  }
+
+  .programCalendarBenefitsCardText {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .programCalendarContainer {
+    max-width: 260px;
+  }
+
+  .programCalendarCard {
+    max-width: 220px;
+  }
+
+  .programCalendarDate {
+    max-width: 92px;
+  }
+
+  .programCalendarTime {
+    max-width: 83px;
+  }
+
+  .programCalendarBenefitsContainer {
+    max-width: 220px;
+  }
+
+  .programCalendarBenefitsCardText {
+    max-width: 150px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .programCalendarContainer {
+    max-width: 280px;
+  }
+
+  .programCalendarCard {
+    max-width: 240px;
+  }
+
+  .programCalendarDate {
+    max-width: 92px;
+  }
+
+  .programCalendarTime {
+    max-width: 83px;
+  }
+
+  .programCalendarBenefitsContainer {
+    max-width: 240px;
+  }
+
+  .programCalendarBenefitsCardText {
+    max-width: 170px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .programCalendarContainer {
+    max-width: 300px;
+  }
+
+  .programCalendarCard {
+    max-width: 260px;
+  }
+
+  .programCalendarDate {
+    max-width: 92px;
+  }
+
+  .programCalendarTime {
+    max-width: 83px;
+  }
+
+  .programCalendarBenefitsContainer {
+    max-width: 260px;
+  }
+
+  .programCalendarBenefitsCardText {
+    max-width: 190px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .programCalendarContainer {
+    max-width: 320px;
+  }
+
+  .programCalendarCard {
+    max-width: 280px;
+  }
+
+  .programCalendarDate,
+  .programCalendarTime {
+    max-width: 92px;
+  }
+
+  .programCalendarBenefitsContainer {
+    max-width: 280px;
+  }
+
+  .programCalendarBenefitsCardText {
+    max-width: 210px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .programCalendar {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .programCalendar {
+    max-width: 360px;
+  }
+
+  .programCalendarBenefitsContainer {
+    max-width: 320px;
+  }
+
+  .programCalendarBenefitsCardText {
+    max-width: 234px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .programCalendar {
+    max-width: 688px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .programCalendarCardWrapper {
+    gap: 20px;
+  }
+
+  .programCalendarDate.programCalendarDateLong {
+    max-width: 116px;
+  }
+
+  .programCalendarBenefitsContainer {
+    max-width: 628px;
+    padding: 30px;
+  }
+
+  .programCalendarBenefitsCardText {
+    width: 100%;
+    max-width: 234px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .programCalendar {
+    max-width: 944px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .programCalendarCardWrapper {
+    gap: 20px;
+  }
+
+  .programCalendarBenefitsContainer {
+    max-width: 864px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .programCalendarContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .programCalendar {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .programCalendar {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .programCalendar {
+    max-width: 1700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .programCalendar {
+    max-width: 1920px;
+  }
 }
