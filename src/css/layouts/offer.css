@@ -8,8 +8,6 @@
 .offerContainer {
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
 }
 
@@ -456,4 +454,412 @@
 
 .offerContentSuperTitleYellow {
   color: #fff401;
+}
+
+@media screen and (max-width: 1279px) {
+  .offerContentSuperTitle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .offerBonusesItem {
+    flex-direction: column;
+  }
+
+  .offerTotalPriceWrapper {
+    flex-direction: column;
+  }
+
+  .spesialOfferPriceContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .offerTitleContainer,
+  .offerBonusesContainer,
+  .offerTotalPriceContainer {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .offerTitleContainer {
+    align-items: flex-end;
+    margin-bottom: 30px;
+  }
+
+  .offerTitle {
+    max-width: 267px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .offerArrow {
+    width: 27px;
+    height: 19px;
+  }
+
+  .offerProgram {
+    padding: 30px;
+  }
+
+  .offerProgramCardsWrapper {
+    flex-direction: column;
+  }
+
+  .offerProgramCard {
+    padding: 20px;
+  }
+
+  .offerProgramImg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .short {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .offerBonusesContainer,
+  .offerTotalPriceContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .offerBonusesTitle {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .offerBonusTip {
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerBonusPrice {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerBonusPriceTextContainer {
+    max-width: 165px;
+  }
+
+  .offerBonusText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .offerTotalPriceText {
+    max-width: 211px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .spesialOfferPriceTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .offerTotalPriceBtn {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .middle > .short {
+    height: 57px;
+  }
+
+  .Smal > .short {
+    height: 38px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .offerProgramCard {
+    max-width: 218px;
+  }
+
+  .offerProgramText {
+    max-width: 180px;
+  }
+
+  .offerBonusTip,
+  .offerBonusPrice,
+  .spesialOfferPriceTitle,
+  .spesialOfferPriceNumberContainer,
+  .spesialOfferPriceNumberTotal {
+    max-width: 218px;
+  }
+
+  .offerTotalPriceContainer,
+  .Smal {
+    max-width: 320px;
+  }
+
+  .spesialOfferPriceNumberImg {
+    left: 25%;
+  }
+
+  .offerTotalPriceBtnContainer {
+    max-width: 238px;
+  }
+
+  .offerBonusPriceImg {
+    width: 61px;
+    height: 61px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .offerProgramCard {
+    max-width: 238px;
+  }
+
+  .offerProgramText {
+    max-width: 200px;
+  }
+
+  .offerBonusTip,
+  .offerBonusPrice,
+  .spesialOfferPriceTitle,
+  .spesialOfferPriceNumberContainer,
+  .spesialOfferPriceNumberTotal {
+    max-width: 238px;
+  }
+
+  .offerBonusPriceTextContainer {
+    max-width: 165px;
+  }
+
+  .offerTotalPriceContainer,
+  .Smal {
+    max-width: 340px;
+  }
+
+  .spesialOfferPriceNumberImg {
+    left: 27%;
+  }
+
+  .offerTotalPriceBtnContainer {
+    max-width: 258px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .offerProgramCard {
+    max-width: 258px;
+  }
+
+  .offerProgramText {
+    max-width: 220px;
+  }
+
+  .offerBonusTip,
+  .offerBonusPrice,
+  .spesialOfferPriceTitle,
+  .spesialOfferPriceNumberContainer,
+  .spesialOfferPriceNumberTotal {
+    max-width: 258px;
+  }
+
+  .offerTotalPriceContainer,
+  .Smal {
+    max-width: 360px;
+  }
+
+  .spesialOfferPriceNumberImg {
+    left: 29%;
+  }
+
+  .offerTotalPriceBtnContainer {
+    max-width: 278px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .offerProgramCard {
+    max-width: 278px;
+  }
+
+  .offerProgramText {
+    max-width: 240px;
+  }
+
+  .offerBonusTip,
+  .offerBonusPrice,
+  .spesialOfferPriceTitle,
+  .spesialOfferPriceNumberContainer,
+  .spesialOfferPriceNumberTotal {
+    max-width: 278px;
+  }
+
+  .offerTotalPriceContainer,
+  .Smal {
+    max-width: 360px;
+  }
+
+  .spesialOfferPriceNumberImg {
+    left: 30%;
+  }
+
+  .offerTotalPriceBtnContainer {
+    max-width: 298px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .offer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .offer {
+    max-width: 420px;
+  }
+
+  .offerProgramCard {
+    max-width: 320px;
+  }
+
+  .offerProgramText {
+    max-width: 280px;
+  }
+
+  .offerBonusTip,
+  .offerBonusPrice,
+  .spesialOfferPriceTitle,
+  .spesialOfferPriceNumberContainer,
+  .spesialOfferPriceNumberTotal {
+    max-width: 318px;
+  }
+
+  .offerTotalPriceContainer,
+  .Smal {
+    max-width: 360px;
+  }
+
+  .middle > .short {
+    height: 38px;
+  }
+
+  .spesialOfferPriceNumberImg {
+    left: 32%;
+  }
+
+  .offerTotalPriceBtnContainer {
+    max-width: 338px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .offer {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .offer {
+    max-width: 688px;
+  }
+
+  .offerProgramCard {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .textFirst,
+  .textSecond,
+  .textThird,
+  .textForth,
+  .textEightth,
+  .textNineth {
+    max-width: 216px;
+  }
+
+  .textFifth {
+    max-width: 120px;
+  }
+
+  .textSixth,
+  .textSeventh {
+    max-width: 120px;
+  }
+
+  .offerBonusPrice {
+    max-width: 471px;
+  }
+
+  .Smal {
+    max-width: 420px;
+  }
+
+  .offerMedium {
+    max-width: 270px;
+  }
+
+  .spesialOfferPriceNumberContainer,
+  .spesialOfferPriceNumberTotal {
+    max-width: 509px;
+  }
+
+  .spesialOfferPriceNumberImg {
+    left: 38%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .offer {
+    max-width: 944px;
+  }
+
+  .textFifth {
+    max-width: 205px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .offerContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .offer {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .offer {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .offer {
+    max-width: 1700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .offer {
+    max-width: 1920px;
+  }
 }
