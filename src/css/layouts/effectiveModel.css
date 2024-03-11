@@ -339,6 +339,13 @@
   }
 }
 
+@media screen and (min-width: 420px) {
+  .effectiveModel {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .effectiveModel {
     max-width: 420px;

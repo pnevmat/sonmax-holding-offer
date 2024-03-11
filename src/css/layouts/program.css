@@ -8,8 +8,6 @@
 .programContainer {
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
 }
 
@@ -37,6 +35,7 @@
 
 .programSubtitleWrapper {
   position: relative;
+  margin-bottom: 50px;
 }
 
 .programSubtitleArrow {
@@ -51,7 +50,6 @@
   display: block;
   width: 100%;
   max-width: 830px;
-  margin-bottom: 50px;
 }
 
 .programLessonsList {
@@ -191,4 +189,356 @@
 
 .smallStep {
   align-items: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+  .program {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .programSubtitleWrapper,
+  .programTitle {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .programSubtitleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .programTitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .programSubtitle {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .programSubtitleArrow {
+    position: static;
+    width: 27px;
+    height: 19px;
+  }
+
+  .programLessonsList {
+    gap: 20px;
+  }
+
+  .programStepNumber,
+  .programStepText,
+  .programLessonCardYouGetResult {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .programLessonCard {
+    padding: 30px;
+  }
+
+  .programLessonCardTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .programLessonCardTitle,
+  .programLessonCardTitle.medium {
+    max-width: 300px;
+  }
+
+  .programLessonCardListWrapper {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .programLessonCardListText {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .programLessonCardYouGetResult {
+    margin-bottom: 10px;
+  }
+
+  .programLessonCardYouGet {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .textNormal {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .programTitle {
+    margin-bottom: 20px;
+  }
+
+  .programSubtitleWrapper,
+  .programTitle {
+    max-width: 260px;
+  }
+
+  .programSubtitle {
+    max-width: 260px;
+  }
+
+  .programLessonCard {
+    max-width: 260px;
+  }
+
+  .programLessonCardList {
+    max-width: 240px;
+  }
+
+  .programLessonCardList.listSort {
+    max-width: 200px;
+  }
+
+  .programLessonCardYouGet {
+    max-width: 220px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .programTitle {
+    margin-bottom: 20px;
+  }
+
+  .programSubtitleWrapper,
+  .programTitle {
+    max-width: 280px;
+  }
+
+  .programSubtitle {
+    max-width: 280px;
+  }
+
+  .programLessonCard {
+    max-width: 280px;
+  }
+
+  .programLessonCardList {
+    max-width: 260px;
+  }
+
+  .programLessonCardList.listSort {
+    max-width: 220px;
+  }
+
+  .programLessonCardYouGet {
+    max-width: 240px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .programTitle {
+    margin-bottom: 20px;
+  }
+
+  .programSubtitleWrapper,
+  .programTitle {
+    max-width: 300px;
+  }
+
+  .programSubtitle {
+    max-width: 300px;
+  }
+
+  .programLessonCard {
+    max-width: 300px;
+  }
+
+  .programLessonCardList {
+    max-width: 280px;
+  }
+
+  .programLessonCardList.listSort {
+    max-width: 240px;
+  }
+
+  .programLessonCardYouGet {
+    max-width: 260px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .programTitle {
+    margin-bottom: 20px;
+  }
+
+  .programSubtitleWrapper,
+  .programTitle {
+    max-width: 320px;
+  }
+
+  .programSubtitle {
+    max-width: 300px;
+  }
+
+  .programLessonCard {
+    max-width: 320px;
+  }
+
+  .programLessonCardList {
+    max-width: 300px;
+  }
+
+  .programLessonCardList.listSort {
+    max-width: 260px;
+  }
+
+  .programLessonCardYouGet {
+    max-width: 280px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .program {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .program {
+    max-width: 420px;
+  }
+
+  .programTitle {
+    margin-bottom: 20px;
+  }
+
+  .programSubtitleWrapper,
+  .programTitle {
+    max-width: 360px;
+  }
+
+  .programSubtitle {
+    max-width: 300px;
+  }
+
+  .programLessonCard {
+    max-width: 360px;
+  }
+
+  .programLessonCardList {
+    max-width: 340px;
+  }
+
+  .programLessonCardList.listSort {
+    max-width: 300px;
+  }
+
+  .programLessonCardYouGet {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .program {
+    max-width: 688px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .programSubtitleWrapper,
+  .programTitle {
+    max-width: 648px;
+  }
+
+  .programSubtitle {
+    max-width: 500px;
+  }
+
+  .programLessonCard {
+    max-width: 648px;
+    padding: 20px;
+  }
+
+  .programLessonCardTitle,
+  .programLessonCardTitle.medium {
+    max-width: 300px;
+  }
+
+  .programLessonCardList {
+    max-width: 280px;
+  }
+
+  .programLessonCardList.listSort {
+    max-width: 240px;
+  }
+
+  .programLessonCardYouGet {
+    max-width: 260px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .program {
+    max-width: 944px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .programLessonCard {
+    max-width: 864px;
+  }
+
+  .programLessonCardTitle,
+  .programLessonCardTitle.medium {
+    max-width: 424px;
+  }
+
+  .programLessonCardList {
+    max-width: 400px;
+  }
+
+  .programLessonCardList.listSort {
+    max-width: 340px;
+  }
+
+  .programLessonCardYouGet {
+    max-width: 360px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .programContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .program {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .program {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .program {
+    max-width: 1700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .program {
+    max-width: 1920px;
+  }
 }
