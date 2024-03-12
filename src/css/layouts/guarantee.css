@@ -8,8 +8,6 @@
 .guaranteeContainer {
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
 }
 
@@ -20,6 +18,7 @@
   line-height: 56px;
   letter-spacing: 0em;
   text-align: left;
+  text-transform: uppercase;
   color: #fff401;
 }
 
@@ -40,11 +39,6 @@
   justify-content: space-between;
   width: 100%;
   max-width: 710px;
-}
-
-.guaranteeTextImg {
-  /* width: 100%;
-  max-width: 167px; */
 }
 
 .guaranteeTextWrapper {
@@ -96,4 +90,189 @@
   letter-spacing: 0em;
   text-align: right;
   color: #fff401;
+}
+
+@media screen and (max-width: 1023px) {
+  .guaranteeCard {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .guarantee {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .guaranteeTitle {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .guaranteeTextContainer {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .guaranteeBraketsImg {
+    width: 14px;
+    height: 11px;
+  }
+
+  .guaranteeText {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .guaranteeSignContainer {
+    align-items: center;
+  }
+
+  .guaranteeSignImg {
+    max-width: 123px;
+  }
+
+  .guaranteeSignText {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .guaranteeTitle {
+    max-width: 260px;
+  }
+
+  .guaranteeCard {
+    max-width: 178px;
+  }
+
+  .guaranteeText {
+    max-width: 150px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .guaranteeTitle {
+    max-width: 280px;
+  }
+
+  .guaranteeCard {
+    max-width: 198px;
+  }
+
+  .guaranteeText {
+    max-width: 170px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .guaranteeTitle {
+    max-width: 300px;
+  }
+
+  .guaranteeCard {
+    max-width: 218px;
+  }
+
+  .guaranteeText {
+    max-width: 190px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .guaranteeTitle {
+    max-width: 320px;
+  }
+
+  .guaranteeCard {
+    max-width: 238px;
+  }
+
+  .guaranteeText {
+    max-width: 210px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .guarantee {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .guarantee {
+    max-width: 360px;
+  }
+
+  .guaranteeCard {
+    max-width: 278px;
+  }
+
+  .guaranteeText {
+    max-width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .guarantee {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .guarantee {
+    max-width: 688px;
+  }
+
+  .guaranteeCard {
+    max-width: 606px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .guarantee {
+    max-width: 944px;
+  }
+
+  .guaranteeCard {
+    max-width: 862px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .guaranteeContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .guarantee {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .guarantee {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .guarantee {
+    max-width: 1700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .guarantee {
+    max-width: 1920px;
+  }
 }
