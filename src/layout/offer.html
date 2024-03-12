@@ -244,7 +244,11 @@
           </div>
 
           <div class="offerTotalPriceBtnContainer">
-            <button class="offerTotalPriceBtn bold" type="button">
+            <button
+              class="offerTotalPriceBtn bold"
+              type="button"
+              special-offer-button
+            >
               Забронювати умови участі
             </button>
           </div>
@@ -257,6 +261,32 @@
           session
         </span>
         <span class="offerContentSuperTitleText">2024</span>
+      </div>
+    </div>
+
+    <div class="overlay is-hiden" special-offer-modal>
+      <div class="popUp header-pop-up">
+        <div class="popUpTitleContainer">
+          <span class="popUpTitle bold">
+            Заповніть ваші дані та натисніть на кнопку, щоб забронювати
+            найвигідніші умови участі та 4 бонуси вартістю $1000
+          </span>
+          <img
+            class="closeIcon"
+            src="./images/icons/close-icon.svg"
+            alt="Закрити"
+            special-offer-close-btn
+          />
+        </div>
+
+        <div class="popUpForm">
+          <input class="popUpInput" type="text" placeholder="Ім’я" />
+          <input class="popUpInput" type="text" placeholder="Email" />
+          <input class="popUpInput" type="text" placeholder="Телефон" />
+          <span class="popUpButton bold" special-offer-submit-btn>
+            Забронювати участь
+          </span>
+        </div>
       </div>
     </div>
   </div>

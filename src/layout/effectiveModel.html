@@ -62,9 +62,39 @@
       </div>
 
       <div class="effectiveModelYouGetBtnWrapper">
-        <button class="effectiveModelYouGetBtn bold" type="button">
+        <button
+          class="effectiveModelYouGetBtn bold"
+          type="button"
+          effective-model-button
+        >
           Взяти участь
         </button>
+      </div>
+    </div>
+
+    <div class="overlay is-hiden" effective-model-modal>
+      <div class="popUp header-pop-up">
+        <div class="popUpTitleContainer">
+          <span class="popUpTitle bold">
+            Заповніть ваші дані та натисніть на кнопку, щоб забронювати
+            найвигідніші умови участі та 4 бонуси вартістю $1000
+          </span>
+          <img
+            class="closeIcon"
+            src="./images/icons/close-icon.svg"
+            alt="Закрити"
+            effective-model-close-btn
+          />
+        </div>
+
+        <div class="popUpForm">
+          <input class="popUpInput" type="text" placeholder="Ім’я" />
+          <input class="popUpInput" type="text" placeholder="Email" />
+          <input class="popUpInput" type="text" placeholder="Телефон" />
+          <span class="popUpButton bold" effective-model-submit-btn>
+            Забронювати участь
+          </span>
+        </div>
       </div>
     </div>
   </div>
