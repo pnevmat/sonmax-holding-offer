@@ -8,8 +8,6 @@
 .reviewsContainer {
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
 }
 
@@ -62,7 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 86px;
+  width: 90px;
   height: 86px;
   border: 2px solid #ffffff33;
   border-radius: 100px;
@@ -80,7 +78,7 @@
   align-items: flex-start;
   justify-content: space-around;
   width: 100%;
-  max-width: 276px;
+  max-width: 270px;
 }
 
 .reviewsCardReviewerName,
@@ -133,4 +131,242 @@
   line-height: 22px;
   letter-spacing: 0em;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .reviewsContainer {
+    text-align: center;
+  }
+
+  .reviewsTitle {
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .reviewsCardsContainer {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .reviewsCardReviewerImgWrapper {
+    width: 64px;
+    height: 64px;
+  }
+
+  .reviewsCardReviewerImg {
+    width: 54px;
+    height: 54px;
+  }
+
+  .reviewsCardReviewerName {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .reviewsCardReviewerTg {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .reviewsContainer {
+    max-width: 260px;
+  }
+
+  .reviewsCardsContainer {
+    max-width: 260px;
+  }
+
+  .reviewsCardVideoContainer {
+    background-size: 29% 13%, cover;
+  }
+
+  .reviewsCardReviewerNameContainer {
+    max-width: 160px;
+  }
+
+  .reviewsBtnWrapper {
+    max-width: 238px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .reviewsContainer {
+    max-width: 280px;
+  }
+
+  .reviewsCardsContainer {
+    max-width: 280px;
+  }
+
+  .reviewsCardVideoContainer {
+    background-size: 26.5% 13%, cover;
+  }
+
+  .reviewsCardReviewerNameContainer {
+    max-width: 180px;
+  }
+
+  .reviewsBtnWrapper {
+    max-width: 258px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .reviewsContainer {
+    max-width: 300px;
+  }
+
+  .reviewsCardsContainer {
+    max-width: 300px;
+  }
+
+  .reviewsCardVideoContainer {
+    background-size: 25% 13%, cover;
+  }
+
+  .reviewsCardReviewerNameContainer {
+    max-width: 200px;
+  }
+
+  .reviewsBtnWrapper {
+    max-width: 278px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .reviewsContainer {
+    max-width: 320px;
+  }
+
+  .reviewsCardsContainer {
+    max-width: 320px;
+  }
+
+  .reviewsCardVideoContainer {
+    background-size: 23% 13%, cover;
+  }
+
+  .reviewsCardReviewerNameContainer {
+    max-width: 220px;
+  }
+
+  .reviewsBtnWrapper {
+    max-width: 298px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .reviews {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .reviews {
+    max-width: 360px;
+  }
+
+  .reviewsCardsContainer {
+    max-width: 360px;
+  }
+
+  .reviewsCardVideoContainer {
+    background-size: 21% 13%, cover;
+  }
+
+  .reviewsCardReviewerNameContainer {
+    max-width: 250px;
+  }
+
+  .reviewsBtnWrapper {
+    max-width: 338px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .reviews {
+    max-width: 688px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .reviewsCardsContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 688px;
+  }
+
+  .reviewsCard {
+    max-width: 310px;
+  }
+
+  .reviewsCardVideoContainer {
+    background-size: 24% 13%, cover;
+  }
+
+  .reviewsCardReviewerNameContainer {
+    max-width: 200px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .reviews {
+    max-width: 944px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .reviewsContainer {
+    text-align: center;
+  }
+
+  .reviewsCardsContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 844px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviewsContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .reviews {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .reviews {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .reviews {
+    max-width: 1700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .reviews {
+    max-width: 1920px;
+  }
 }
