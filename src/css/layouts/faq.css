@@ -8,8 +8,6 @@
 .faqContainer {
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
 }
 
@@ -123,4 +121,174 @@
 .faqBtnPlus:hover,
 .faqBtnMinus:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .faqTitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .faqQuestionNumber {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .faqQuestionText {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+  }
+
+  .faqQuestionAnswer {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .faqBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .faqBtnWrapper {
+    width: 34px;
+    height: 34px;
+  }
+
+  .faqBtnPlus {
+    width: 14px;
+    height: 14px;
+  }
+
+  .faqBtnMinus {
+    width: 12px;
+    height: 2px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 767px) {
+  .faqQuestionTextWrapper {
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .faqContainer {
+    max-width: 260px;
+  }
+
+  .faqQuestionTextWrapper {
+    height: 53px;
+  }
+
+  .faqQuestionTextWrapper.open {
+    height: 190px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .faqContainer {
+    max-width: 280px;
+  }
+
+  .faqQuestionTextWrapper.open {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .faqContainer {
+    max-width: 300px;
+  }
+
+  .faqQuestionTextWrapper.open {
+    height: 145px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .faqContainer {
+    max-width: 320px;
+  }
+
+  .faqQuestionTextWrapper.open {
+    height: 125px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .faq {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .faq {
+    max-width: 360px;
+  }
+
+  .faqQuestionTextWrapper.open {
+    height: 105px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .faq {
+    max-width: 688px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .faqQuestionTextWrapper.open {
+    height: 110px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .faq {
+    max-width: 944px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .faqContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .faq {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .faq {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .faq {
+    max-width: 1700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .faq {
+    max-width: 1920px;
+  }
 }
