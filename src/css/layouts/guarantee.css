@@ -198,16 +198,18 @@
   }
 }
 
-@media screen and (min-width: 420px) {
+/* @media screen and (min-width: 420px) {
   .guarantee {
     margin-right: auto;
     margin-left: auto;
   }
-}
+} */
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
-  .guarantee {
+  .guaranteeContainer {
     max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .guaranteeCard {
@@ -227,8 +229,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .guarantee {
+  .guaranteeContainer {
     max-width: 688px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .guaranteeCard {
@@ -237,8 +241,10 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .guarantee {
+  .guaranteeContainer {
     max-width: 944px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .guaranteeCard {
@@ -250,24 +256,6 @@
   .guaranteeContainer {
     margin-right: auto;
     margin-left: auto;
-  }
-}
-
-@media screen and (min-width: 1280px) and (max-width: 1359px) {
-  .guarantee {
-    max-width: 1280px;
-  }
-}
-
-@media screen and (min-width: 1360px) and (max-width: 1699px) {
-  .guarantee {
-    max-width: 1360px;
-  }
-}
-
-@media screen and (min-width: 1700px) and (max-width: 1919px) {
-  .guarantee {
-    max-width: 1700px;
   }
 }
 

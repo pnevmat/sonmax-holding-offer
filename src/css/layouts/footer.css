@@ -189,14 +189,14 @@
 }
 
 @media screen and (min-width: 420px) {
-  .footer {
+  .footerContainer {
     margin-right: auto;
     margin-left: auto;
   }
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
-  .footer {
+  .footerContainer {
     max-width: 360px;
   }
 
@@ -206,7 +206,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .footer {
+  .footerContainer {
     max-width: 688px;
     padding-right: 40px;
     padding-left: 40px;
@@ -218,7 +218,7 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .footer {
+  .footerContainer {
     max-width: 944px;
     padding-right: 40px;
     padding-left: 40px;
@@ -230,31 +230,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footerContainer {
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .footerLogoWrapper {
     max-width: 600px;
-  }
-}
-
-@media screen and (min-width: 1280px) and (max-width: 1359px) {
-  .footer {
-    max-width: 1280px;
-  }
-}
-
-@media screen and (min-width: 1360px) and (max-width: 1699px) {
-  .footer {
-    max-width: 1360px;
-  }
-}
-
-@media screen and (min-width: 1700px) and (max-width: 1919px) {
-  .footer {
-    max-width: 1700px;
   }
 }
 

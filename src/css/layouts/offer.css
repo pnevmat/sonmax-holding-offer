@@ -725,8 +725,10 @@
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
-  .offer {
+  .offerContainer {
     max-width: 420px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .offerProgramCard {
@@ -771,8 +773,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .offer {
+  .offerContainer {
     max-width: 688px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .offerProgramCard {
@@ -821,8 +825,10 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .offer {
+  .offerContainer {
     max-width: 944px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .textFifth {
@@ -838,20 +844,20 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
-  .offer {
-    max-width: 1280px;
+  .offerContainer {
+    max-width: 1200px;
   }
 }
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
-  .offer {
-    max-width: 1360px;
+  .offerContainer {
+    max-width: 1200px;
   }
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
-  .offer {
-    max-width: 1700px;
+  .offerContainer {
+    max-width: 1200px;
   }
 }
 

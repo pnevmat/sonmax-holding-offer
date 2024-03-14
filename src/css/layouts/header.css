@@ -214,16 +214,15 @@
   }
 }
 
-@media screen and (min-width: 420px) {
+/* @media screen and (min-width: 420px) {
   .header {
     margin-right: auto;
     margin-left: auto;
   }
-}
+} */
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .header {
-    max-width: 420px;
     background-size: 91% 37%, cover;
     background-position: 50% 33%, top;
   }
@@ -239,7 +238,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    max-width: 768px;
     background-size: 92.5% 58%, cover;
     background-position: 160% 5%, top;
   }
@@ -259,7 +257,6 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
-    max-width: 1024px;
     background-size: 96% 68%, cover;
     background-position: 50% 5%, top;
   }
@@ -279,7 +276,6 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
   .header {
-    max-width: 1280px;
     background-size: 70% 96%, cover;
     background-position: 110% 90%, top;
   }
@@ -287,7 +283,6 @@
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
   .header {
-    max-width: 1360px;
     background-size: 66% 96%, cover;
     background-position: 105% 90%, top;
   }
@@ -295,7 +290,6 @@
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
   .header {
-    max-width: 1700px;
     background-size: 53% 96%, cover;
     background-position: 82% 90%, top;
   }
