@@ -1,13 +1,15 @@
 .program {
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
   background-color: #010101;
 }
 
 .programContainer {
   width: 100%;
   max-width: 1200px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
 }
 
@@ -192,7 +194,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .program {
+  .programContainer {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -279,6 +281,10 @@
 }
 
 @media screen and (max-width: 339px) {
+  .programContainer {
+    max-width: 320px;
+  }
+
   .programTitle {
     margin-bottom: 20px;
   }
@@ -310,6 +316,10 @@
 }
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
+  .programContainer {
+    max-width: 340px;
+  }
+
   .programTitle {
     margin-bottom: 20px;
   }
@@ -341,6 +351,10 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 379px) {
+  .programContainer {
+    max-width: 360px;
+  }
+
   .programTitle {
     margin-bottom: 20px;
   }
@@ -372,6 +386,10 @@
 }
 
 @media screen and (min-width: 380px) and (max-width: 419px) {
+  .programContainer {
+    max-width: 380px;
+  }
+
   .programTitle {
     margin-bottom: 20px;
   }
@@ -402,14 +420,11 @@
   }
 }
 
-/* @media screen and (min-width: 420px) {
-  .program {
-    margin-right: auto;
-    margin-left: auto;
-  }
-} */
-
 @media screen and (min-width: 420px) and (max-width: 767px) {
+  .programContainer {
+    max-width: 420px;
+  }
+
   .programTitle {
     margin-bottom: 20px;
   }
@@ -443,7 +458,8 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .program {
+  .programContainer {
+    max-width: 688px;
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -489,7 +505,8 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .program {
+  .programContainer {
+    max-width: 944px;
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -529,15 +546,38 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
   .programContainer {
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 1342px;
+  }
+
+  .programSubtitleWrapper {
+    max-width: 1200px;
+  }
+
+  .programLessonsList {
+    align-items: flex-start;
+  }
+
+  .programLessonCard {
+    max-width: 1120px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .program {
-    max-width: 1920px;
+  .programContainer {
+    max-width: 1562px;
+  }
+
+  .programSubtitleWrapper {
+    max-width: 1200px;
+  }
+
+  .programLessonsList {
+    align-items: flex-start;
+  }
+
+  .programLessonCard {
+    max-width: 1120px;
   }
 }

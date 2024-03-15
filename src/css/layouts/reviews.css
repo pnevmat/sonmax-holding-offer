@@ -1,13 +1,15 @@
 .reviews {
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
   background-color: #010101;
 }
 
 .reviewsContainer {
   width: 100%;
   max-width: 1200px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
 }
 
@@ -23,9 +25,6 @@
 }
 
 .reviewsCardsContainer {
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
   margin-bottom: 60px;
 }
 
@@ -134,14 +133,11 @@
 }
 
 @media screen and (max-width: 767px) {
-  .reviews {
+  .reviewsContainer {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 30px;
     padding-left: 30px;
-  }
-
-  .reviewsContainer {
     text-align: center;
   }
 
@@ -275,8 +271,6 @@
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .reviewsContainer {
     max-width: 360px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .reviewsCardsContainer {
@@ -301,8 +295,6 @@
     max-width: 688px;
     padding-right: 40px;
     padding-left: 40px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .reviewsCardsContainer {
@@ -330,8 +322,6 @@
     max-width: 944px;
     padding-right: 40px;
     padding-left: 40px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .reviewsContainer {
@@ -347,18 +337,49 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .reviewsContainer {
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .swiper {
     width: 100%;
   }
 }
 
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .reviewsContainer {
+    max-width: 1342px;
+  }
+
+  .reviewsCardsContainer {
+    max-width: 1202px;
+    text-align: left;
+  }
+
+  .swiper {
+    max-width: 1202px;
+  }
+
+  .reviewsBtnContainer {
+    max-width: 1202px;
+  }
+}
+
 @media screen and (min-width: 1920px) {
-  .reviews {
-    max-width: 1920px;
+  .reviewsContainer {
+    max-width: 1562px;
+  }
+
+  .reviewsTitle {
+    max-width: 1202px;
+  }
+
+  .reviewsCardsContainer {
+    max-width: 1202px;
+    text-align: left;
+  }
+
+  .swiper {
+    max-width: 1202px;
+  }
+
+  .reviewsBtnContainer {
+    max-width: 1202px;
   }
 }

@@ -1,13 +1,15 @@
 .effectiveModel {
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
   background-color: #010101;
 }
 
 .effectiveModelContainer {
   width: 100%;
   max-width: 1200px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
 }
 
@@ -199,12 +201,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  .effectiveModel {
+  .effectiveModelContainer {
     padding-top: 50px;
     padding-bottom: 50px;
-  }
-
-  .effectiveModelContainer {
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -339,18 +338,9 @@
   }
 }
 
-@media screen and (min-width: 420px) {
-  .effectiveModel {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .effectiveModelContainer {
     max-width: 360px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .effectiveModelTableCard {
@@ -372,7 +362,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .effectiveModel {
+  .effectiveModelContainer {
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -381,8 +371,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .effectiveModelContainer {
     max-width: 688px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .effectiveModelYouGetWrapper {
@@ -426,21 +414,29 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
   .effectiveModelContainer {
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 1140px;
+    padding-right: 40px;
+    padding-left: 100px;
   }
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1359px) {
-  .effectiveModel {
-    max-width: 1280px;
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .effectiveModelContainer {
+    max-width: 1260px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .effectiveModelContainer {
+    max-width: 1342px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .effectiveModel {
-    max-width: 1920px;
+  .effectiveModelContainer {
+    max-width: 1562px;
   }
 }

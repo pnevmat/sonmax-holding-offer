@@ -1,13 +1,15 @@
 .guarantee {
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
   background-color: #010101;
 }
 
 .guaranteeContainer {
   width: 100%;
   max-width: 1200px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
 }
 
@@ -99,7 +101,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .guarantee {
+  .guaranteeContainer {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 30px;
@@ -143,6 +145,10 @@
 }
 
 @media screen and (max-width: 339px) {
+  .guaranteeContainer {
+    max-width: 260px;
+  }
+
   .guaranteeTitle {
     max-width: 260px;
   }
@@ -157,6 +163,10 @@
 }
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
+  .guaranteeContainer {
+    max-width: 280px;
+  }
+
   .guaranteeTitle {
     max-width: 280px;
   }
@@ -171,6 +181,10 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 379px) {
+  .guaranteeContainer {
+    max-width: 300px;
+  }
+
   .guaranteeTitle {
     max-width: 300px;
   }
@@ -185,6 +199,10 @@
 }
 
 @media screen and (min-width: 380px) and (max-width: 419px) {
+  .guaranteeContainer {
+    max-width: 320px;
+  }
+
   .guaranteeTitle {
     max-width: 320px;
   }
@@ -198,18 +216,9 @@
   }
 }
 
-/* @media screen and (min-width: 420px) {
-  .guarantee {
-    margin-right: auto;
-    margin-left: auto;
-  }
-} */
-
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .guaranteeContainer {
     max-width: 360px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .guaranteeCard {
@@ -222,7 +231,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .guarantee {
+  .guaranteeContainer {
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -231,8 +240,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .guaranteeContainer {
     max-width: 688px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .guaranteeCard {
@@ -243,8 +250,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .guaranteeContainer {
     max-width: 944px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .guaranteeCard {
@@ -252,15 +257,14 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
   .guaranteeContainer {
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 1342px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .guarantee {
-    max-width: 1920px;
+  .guaranteeContainer {
+    max-width: 1562px;
   }
 }

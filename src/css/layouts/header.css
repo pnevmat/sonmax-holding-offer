@@ -1,9 +1,6 @@
 .header {
   width: 100%;
-  padding-top: 35px;
-  padding-bottom: 80px;
-  background-image: url('../../images/man-bacground.png'),
-    url('../../images/header-background.png');
+  background-image: url('../../images/header-background.png');
   background-repeat: no-repeat;
 }
 
@@ -11,9 +8,13 @@
   position: relative;
   width: 100%;
   max-width: 1200px;
+  padding-top: 35px;
+  padding-bottom: 80px;
   margin-right: auto;
   margin-left: auto;
   text-align: left;
+  background-image: url('../../images/man-bacground.png');
+  background-repeat: no-repeat;
 }
 
 .logoContainer {
@@ -156,12 +157,14 @@
 
 @media screen and (max-width: 339px) {
   .header {
-    background-size: 135% 37%, cover;
-    background-position: 49.5% 33%, top;
+    background-size: cover;
+    background-position: top;
   }
 
   .contentContainer {
     max-width: 260px;
+    background-size: 135% 33%;
+    background-position: 49.5% 27%;
   }
 
   .headerBtnWrapper {
@@ -171,12 +174,14 @@
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
   .header {
-    background-size: 125% 37%, cover;
-    background-position: 49.5% 33%, top;
+    background-size: cover;
+    background-position: top;
   }
 
   .contentContainer {
     max-width: 280px;
+    background-size: 125% 33%;
+    background-position: 49.5% 27%;
   }
 
   .headerBtnWrapper {
@@ -186,12 +191,14 @@
 
 @media screen and (min-width: 360px) and (max-width: 379px) {
   .header {
-    background-size: 110% 37%, cover;
-    background-position: 51% 33%, top;
+    background-size: cover;
+    background-position: top;
   }
 
   .contentContainer {
     max-width: 300px;
+    background-size: 125% 38%;
+    background-position: 49.5% 31%;
   }
 
   .headerBtnWrapper {
@@ -201,8 +208,14 @@
 
 @media screen and (min-width: 380px) and (max-width: 419px) {
   .header {
-    background-size: 103% 37%, cover;
-    background-position: 50% 33%, top;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .contentContainer {
+    max-width: 320px;
+    background-size: 125% 39%;
+    background-position: 49.5% 32%;
   }
 
   .contentContainer {
@@ -214,17 +227,16 @@
   }
 }
 
-/* @media screen and (min-width: 420px) {
-  .header {
-    margin-right: auto;
-    margin-left: auto;
-  }
-} */
-
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .header {
-    background-size: 91% 37%, cover;
-    background-position: 50% 33%, top;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .contentContainer {
+    max-width: 360px;
+    background-size: 125% 46%;
+    background-position: 49.5% 36%;
   }
 
   .contentContainer {
@@ -238,12 +250,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    background-size: 92.5% 58%, cover;
-    background-position: 160% 5%, top;
+    background-size: cover;
+    background-position: top;
   }
 
   .contentContainer {
+    max-width: 728px;
     padding-left: 40px;
+    background-size: 110% 54%;
+    background-position: 49.5% 31%;
   }
 
   .logoContainer {
@@ -251,18 +266,21 @@
   }
 
   .onlineContainer {
-    margin-bottom: 300px;
+    margin-bottom: 550px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
-    background-size: 96% 68%, cover;
-    background-position: 50% 5%, top;
+    background-size: cover;
+    background-position: top;
   }
 
   .contentContainer {
+    max-width: 984px;
     padding-left: 40px;
+    background-size: 110% 60%;
+    background-position: 49.5% 34%;
   }
 
   .logoContainer {
@@ -270,35 +288,60 @@
   }
 
   .onlineContainer {
-    margin-bottom: 500px;
+    margin-bottom: 700px;
   }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
   .header {
-    background-size: 70% 96%, cover;
-    background-position: 110% 90%, top;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .contentContainer {
+    max-width: 1180px;
+    padding-left: 100px;
+    background-size: 65% 91%;
+    background-position: 105% 80%;
   }
 }
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
   .header {
-    background-size: 66% 96%, cover;
-    background-position: 105% 90%, top;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .contentContainer {
+    max-width: 1260px;
+    padding-left: 100px;
+    background-size: 69% 98%;
+    background-position: 110% 80%;
   }
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
   .header {
-    background-size: 53% 96%, cover;
-    background-position: 82% 90%, top;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .contentContainer {
+    max-width: 1342px;
+    background-size: 65% 93.5%;
+    background-position: 90% 80%;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .header {
-    max-width: 1920px;
-    background-size: 48% 96%, cover;
-    background-position: 80% 90%, top;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .contentContainer {
+    max-width: 1562px;
+    background-size: 58% 96%;
+    background-position: 62% 90%;
   }
 }

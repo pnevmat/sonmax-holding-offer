@@ -1,13 +1,15 @@
 .offer {
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
   background-color: #010101;
 }
 
 .offerContainer {
   width: 100%;
   max-width: 1200px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
 }
 
@@ -474,7 +476,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .offer {
+  .offerContainer {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -585,6 +587,10 @@
 }
 
 @media screen and (max-width: 339px) {
+  .offerContainer {
+    max-width: 320px;
+  }
+
   .offerProgramCard {
     max-width: 218px;
   }
@@ -621,6 +627,10 @@
 }
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
+  .offerContainer {
+    max-width: 340px;
+  }
+
   .offerProgramCard {
     max-width: 238px;
   }
@@ -656,6 +666,10 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 379px) {
+  .offerContainer {
+    max-width: 360px;
+  }
+
   .offerProgramCard {
     max-width: 258px;
   }
@@ -687,6 +701,10 @@
 }
 
 @media screen and (min-width: 380px) and (max-width: 419px) {
+  .offerContainer {
+    max-width: 380px;
+  }
+
   .offerProgramCard {
     max-width: 278px;
   }
@@ -717,18 +735,9 @@
   }
 }
 
-@media screen and (min-width: 420px) {
-  .offer {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .offerContainer {
     max-width: 420px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .offerProgramCard {
@@ -766,7 +775,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .offer {
+  .offerContainer {
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -775,8 +784,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .offerContainer {
     max-width: 688px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .offerProgramCard {
@@ -827,19 +834,10 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .offerContainer {
     max-width: 944px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .textFifth {
     max-width: 205px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .offerContainer {
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 
@@ -857,12 +855,28 @@
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
   .offerContainer {
+    max-width: 1342px;
+  }
+
+  .offerTitleContainer {
     max-width: 1200px;
+  }
+
+  .offerContentSuperTitle {
+    left: 29%;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .offer {
-    max-width: 1920px;
+  .offerContainer {
+    max-width: 1562px;
+  }
+
+  .offerTitleContainer {
+    max-width: 1200px;
+  }
+
+  .offerContentSuperTitle {
+    left: 24.9%;
   }
 }
