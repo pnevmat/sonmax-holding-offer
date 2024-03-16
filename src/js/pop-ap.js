@@ -54,20 +54,6 @@ reviewsModalCloseBtn.addEventListener('click', () =>
   closeModal('reviewsModalCloseBtn'),
 );
 
-// Submit form listeners
-headerSubmitBtn.addEventListener('click', () =>
-  submitForm(null, 'headerModalCloseBtn'),
-);
-effectiveModelSubmitBtn.addEventListener('click', () =>
-  submitForm(null, 'effectiveModelModalCloseBtn'),
-);
-specialOfferSubmitBtn.addEventListener('click', () =>
-  submitForm(null, 'specialOfferModalCloseBtn'),
-);
-reviewsSubmitBtn.addEventListener('click', () =>
-  submitForm(null, 'reviewsModalCloseBtn'),
-);
-
 function openModal(button) {
   if (button === 'headerButton') {
     headerModal.classList.remove('is-hiden');
@@ -90,8 +76,4 @@ function closeModal(modal) {
   } else if (modal === 'reviewsModalCloseBtn') {
     reviewsModal.classList.add('is-hiden');
   }
-}
-
-function submitForm(data, modal) {
-  closeModal(modal);
 }

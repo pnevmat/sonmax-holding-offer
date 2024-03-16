@@ -88,6 +88,57 @@
     </div>
 
     <div class="overlay is-hiden" reviews-modal>
+      <div class="popUp">
+        <div class="popUpTitleContainer">
+          <span class="popUpTitle bold">
+            Заповніть ваші дані та натисніть на кнопку, щоб забронювати
+            найвигідніші умови участі та 4 бонуси вартістю $1000
+          </span>
+          <img
+            class="closeIcon"
+            src="./images/icons/close-icon.svg"
+            alt="Закрити"
+            reviews-close-btn
+          />
+        </div>
+
+        <form
+          class="popUpForm"
+          action="https://login.sendpulse.com/forms/simple/u/eyJ1c2VyX2lkIjozNzY5NzYsImFkZHJlc3NfYm9va19pZCI6ODk1ODQzNTIsImxhbmciOiJ1YSJ9"
+          method="post"
+        >
+          <input
+            class="popUpInput"
+            type="text"
+            required
+            name="name"
+            placeholder="Ім’я"
+          />
+          <input
+            class="popUpInput"
+            type="email"
+            required
+            name="email"
+            placeholder="Email"
+          />
+          <input
+            class="popUpInput"
+            type="phone"
+            required
+            name="phone"
+            placeholder="Телефон"
+          />
+          <input
+            type="hidden"
+            name="sender"
+            value="info@privatebusiness.academy"
+          />
+          <button class="popUpButton bold">Забронювати участь</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="overlay is-hiden" reviews-modal>
       <div class="popUp header-pop-up">
         <div class="popUpTitleContainer">
           <span class="popUpTitle bold">
@@ -111,6 +162,6 @@
           </span>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>

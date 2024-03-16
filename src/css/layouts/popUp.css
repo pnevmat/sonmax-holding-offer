@@ -71,7 +71,7 @@
 .popUpButton {
   display: inline-block;
   width: 100%;
-  max-width: 438px;
+  /* max-width: 438px; */
   padding: 25px 40px 25px 40px;
   border: none;
   outline: none;
