@@ -1,51 +1,53 @@
 // Open modal buttons
-const headerButton = document.querySelector('[header-button]');
-const effectiveModelButton = document.querySelector('[effective-model-button]');
+// const headerButton = document.querySelector('[header-button]');
+// const effectiveModelButton = document.querySelector('[effective-model-button]');
 const specialOfferButton = document.querySelector('[special-offer-button]');
 const reviewsButton = document.querySelector('[reviews-button]');
 
 // Modals
-const headerModal = document.querySelector('[header-modal]');
-const effectiveModelModal = document.querySelector('[effective-model-modal]');
+// const headerModal = document.querySelector('[header-modal]');
+// const effectiveModelModal = document.querySelector('[effective-model-modal]');
+const specialOfferOverlay = document.querySelector('[special-offer-overlay]');
+const reviewsOverlay = document.querySelector('[reviews-overlay]');
 const specialOfferModal = document.querySelector('[special-offer-modal]');
 const reviewsModal = document.querySelector('[reviews-modal]');
 
 // close modal buttons
-const headerModalCloseBtn = document.querySelector('[header-close-btn]');
-const effectiveModelCloseModalBtn = document.querySelector(
-  '[effective-model-close-btn]',
-);
+// const headerModalCloseBtn = document.querySelector('[header-close-btn]');
+// const effectiveModelCloseModalBtn = document.querySelector(
+//   '[effective-model-close-btn]',
+// );
 const specialOfferCloseModalBtn = document.querySelector(
   '[special-offer-close-btn]',
 );
 const reviewsCloseModalBtn = document.querySelector('[reviews-close-btn]');
 // Submit form buttons
-const headerSubmitBtn = document.querySelector('[header-submit-btn]');
-const effectiveModelSubmitBtn = document.querySelector(
-  '[effective-model-submit-btn]',
-);
+// const headerSubmitBtn = document.querySelector('[header-submit-btn]');
+// const effectiveModelSubmitBtn = document.querySelector(
+//   '[effective-model-submit-btn]',
+// );
 const specialOfferSubmitBtn = document.querySelector(
   '[special-offer-submit-btn]',
 );
 const reviewsSubmitBtn = document.querySelector('[reviews-submit-btn]');
 
 // Open modal listeners
-headerButton.addEventListener('click', () => openModal('headerButton'));
-effectiveModelButton.addEventListener('click', () =>
-  openModal('effectiveModelButton'),
-);
+// headerButton.addEventListener('click', () => openModal('headerButton'));
+// effectiveModelButton.addEventListener('click', () =>
+//   openModal('effectiveModelButton'),
+// );
 specialOfferButton.addEventListener('click', () =>
   openModal('specialOfferButton'),
 );
 reviewsButton.addEventListener('click', () => openModal('reviewsButton'));
 
 // Close modal listeners
-headerModalCloseBtn.addEventListener('click', () =>
-  closeModal('headerModalCloseBtn'),
-);
-effectiveModelCloseModalBtn.addEventListener('click', () =>
-  closeModal('effectiveModelModalCloseBtn'),
-);
+// headerModalCloseBtn.addEventListener('click', () =>
+//   closeModal('headerModalCloseBtn'),
+// );
+// effectiveModelCloseModalBtn.addEventListener('click', () =>
+//   closeModal('effectiveModelModalCloseBtn'),
+// );
 specialOfferCloseModalBtn.addEventListener('click', () =>
   closeModal('specialOfferModalCloseBtn'),
 );
@@ -54,16 +56,16 @@ reviewsCloseModalBtn.addEventListener('click', () =>
 );
 
 // Submit form listeners
-headerSubmitBtn.addEventListener('click', () => {
-  const form = headerModal.children[0].children[0].children[2];
+// headerSubmitBtn.addEventListener('click', () => {
+//   const form = headerModal.children[0].children[0].children[2];
 
-  redirect(form, 'headerSubmitBtn');
-});
-effectiveModelSubmitBtn.addEventListener('click', () => {
-  const form = effectiveModelModal.children[0].children[0].children[2];
+//   redirect(form, 'headerSubmitBtn');
+// });
+// effectiveModelSubmitBtn.addEventListener('click', () => {
+//   const form = effectiveModelModal.children[0].children[0].children[2];
 
-  redirect(form, 'effectiveModelSubmitBtn');
-});
+//   redirect(form, 'effectiveModelSubmitBtn');
+// });
 specialOfferSubmitBtn.addEventListener('click', () => {
   const form = specialOfferModal.children[0].children[0].children[2];
 
@@ -81,15 +83,16 @@ function openModal(button) {
     headerModal.classList.remove('sp-hide');
     headerModal.classList.remove('sp-force-hide');
   } else if (button === 'effectiveModelButton') {
-    console.log('Open efective model modal started');
     effectiveModelModal.classList.remove('sp-popup-outer');
     effectiveModelModal.classList.remove('sp-hide');
     effectiveModelModal.classList.remove('sp-force-hide');
   } else if (button === 'specialOfferButton') {
+    specialOfferOverlay.classList.remove('is-hiden');
     specialOfferModal.classList.remove('sp-popup-outer');
     specialOfferModal.classList.remove('sp-hide');
     specialOfferModal.classList.remove('sp-force-hide');
   } else if (button === 'reviewsButton') {
+    reviewsOverlay.classList.remove('is-hiden');
     reviewsModal.classList.remove('sp-popup-outer');
     reviewsModal.classList.remove('sp-hide');
     reviewsModal.classList.remove('sp-force-hide');
@@ -106,10 +109,12 @@ function closeModal(modal) {
     effectiveModelModal.classList.add('sp-hide');
     effectiveModelModal.classList.add('sp-force-hide');
   } else if (modal === 'specialOfferModalCloseBtn') {
+    specialOfferOverlay.classList.add('is-hiden');
     specialOfferModal.classList.add('sp-popup-outer');
     specialOfferModal.classList.add('sp-hide');
     specialOfferModal.classList.add('sp-force-hide');
   } else if (modal === 'reviewsModalCloseBtn') {
+    reviewsOverlay.classList.add('is-hiden');
     reviewsModal.classList.add('sp-popup-outer');
     reviewsModal.classList.add('sp-hide');
     reviewsModal.classList.add('sp-force-hide');
