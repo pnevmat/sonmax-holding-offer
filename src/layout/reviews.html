@@ -93,11 +93,18 @@
         display: none;
       }
       .sp-form-outer {
-        position: absolute;
-        top: 30%;
-        left: 25%;
+        position: fixed;
+        top: 0;
+        left: 0;
         z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
         border-radius: 20px;
+        -webkit-backdrop-filter: blur(50px);
+        backdrop-filter: blur(50px);
       }
       .sp-form[sp-id='233497'] {
         display: block;
@@ -228,8 +235,12 @@
                 "
               >
                 <p>
-                  Заповніть ваші дані та натисніть на кнопку, щоб забронювати
-                  найвигідніші умови участі та 4 бонуси вартістю $1000
+                  Заповніть ваші дані та натисніть на кнопку, щоб
+                  <span class="underlined red"
+                    >забронювати найвигідніші умови</span
+                  >
+                  участі та
+                  <span class="underlined red">4 бонуси вартістю $1000</span>
                 </p>
               </div>
             </div>

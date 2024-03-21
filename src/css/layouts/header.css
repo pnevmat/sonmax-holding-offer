@@ -33,7 +33,7 @@
   align-items: start;
   gap: 10px;
   width: 100%;
-  max-width: 265px;
+  max-width: 285px;
   margin-bottom: 40px;
 }
 
@@ -41,6 +41,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.onlineItemSmal {
+  width: 100%;
+  max-width: 247px;
+}
+
+.onlineItemBig {
+  width: 100%;
+  max-width: 285px;
 }
 
 .onlineItem > img {
@@ -87,10 +97,6 @@
   color: #ffffff;
 }
 
-.yellow {
-  color: #fff401;
-}
-
 .headerBtnWrapper {
   width: 100%;
   max-width: 368px;
@@ -122,6 +128,10 @@
   line-height: 22px;
   letter-spacing: 0em;
   text-transform: uppercase;
+}
+
+a > .headerBtn {
+  color: #000000;
 }
 
 @media screen and (max-width: 767px) {

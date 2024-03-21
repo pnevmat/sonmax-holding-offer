@@ -202,6 +202,10 @@
   text-transform: uppercase;
 }
 
+a > .effectiveModelYouGetBtn {
+  color: #000000;
+}
+
 @media screen and (max-width: 767px) {
   .effectiveModelContainer {
     padding-top: 50px;

@@ -89,12 +89,12 @@
   color: #ffffff;
 }
 
-.programCalendarDateLong {
-  max-width: 225px;
+.programCalendarText.bonus {
+  color: red;
 }
 
-.programCalendarYellow {
-  color: #fff401;
+.programCalendarDateLong {
+  max-width: 225px;
 }
 
 .bonus {

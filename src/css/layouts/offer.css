@@ -255,6 +255,14 @@
   color: #000000;
 }
 
+.offerBonusPriceNumberImg {
+  position: absolute;
+  top: 37%;
+  left: 58%;
+  width: 53px;
+  height: 12px;
+}
+
 .offerBonusPriceGiftText {
   display: inline-block;
   width: 100%;
@@ -265,7 +273,6 @@
   letter-spacing: 0em;
   text-align: center;
   text-transform: uppercase;
-  color: #fff401;
 }
 
 .offerTotalPriceContainer {
@@ -394,7 +401,6 @@
   line-height: 56px;
   letter-spacing: 0em;
   text-align: left;
-  color: #fff401;
 }
 
 .offerTotalPriceBtnContainer {

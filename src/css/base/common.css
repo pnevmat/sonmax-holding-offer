@@ -23,22 +23,8 @@ button:focus {
   border-radius: 20px;
 }
 
-@media screen and (max-width: 419px) {
-  .pop-up {
-    width: calc(100vw - 60px);
-  }
-}
-
-@media screen and (min-width: 420px) {
-  .pop-up {
-    width: 360px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .pop-up {
-    width: 500px;
-  }
+.relative {
+  position: relative;
 }
 
 .is-hiden {
@@ -51,4 +37,20 @@ button:focus {
 
 .bold {
   font-weight: 700;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.yellow {
+  color: #fff401;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
 }
