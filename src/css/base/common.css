@@ -58,6 +58,14 @@ button:focus {
   text-decoration: underline;
 }
 
+.center {
+  text-align: center;
+}
+
+.white {
+  color: #ffffff;
+}
+
 .yellow {
   color: #fff401;
 }

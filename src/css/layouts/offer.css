@@ -47,11 +47,78 @@
   max-width: 1043px;
 }
 
+/* New classes */
+.offerProgramWrapper {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  /* padding: 40px; */
+  border: 1px solid #7f7f7f;
+  border-radius: 20px;
+}
+
+.offerProgramTitle,
+.offerProgramPrice {
+  font-weight: 700;
+  font-size: 31px;
+  /* color: #fff401; */
+}
+
+.offerProgramContainer {
+  display: flex;
+  justify-content: space-between;
+}
+/* New classes */
+/* Old class */
 .offerProgram {
-  padding: 40px;
+  /* padding: 40px;*/
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
   border-radius: 20px;
   background-color: #ffffff;
 }
+/* Old class */
+/* New classes */
+.offerProgramItem {
+  display: flex;
+  gap: 10px;
+  /* #4d5156 */
+}
+
+.offerProgramItem > span {
+  font-size: 18px;
+}
+
+.offerProgramProList,
+.offerProgramPrimeList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+  padding-right: 75px;
+  padding-bottom: 10px;
+  padding-left: 75px;
+  border-radius: 20px;
+}
+
+.offerProgramProList {
+  background-color: #4d5156;
+}
+
+.offerProgramPrimeList {
+  background-color: #fff401;
+}
+
+.offerProgramProList > span,
+.offerProgramPrimeList > span {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* New classes */
 
 .offerProgramCardsWrapper {
   display: flex;
@@ -281,31 +348,31 @@
   background-color: #fff401;
 }
 
-.offerTotalPriceWrapper {
+/* .offerTotalPriceWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   max-width: 755px;
   margin-bottom: 30px;
-}
+} */
 
-.offerTotalPriceTextContainer {
+/* .offerTotalPriceTextContainer {
   display: flex;
   align-items: center;
   width: 100%;
   max-width: 493px;
-}
+} */
 
-.middle {
+/* .middle {
   max-width: 420px;
-}
+} */
 
-.Smal {
+/* .Smal {
   max-width: 325px;
-}
+} */
 
-.offerTotalPriceText {
+/* .offerTotalPriceText {
   display: inline-block;
   width: 100%;
   max-width: 270px;
@@ -317,26 +384,26 @@
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
-}
+} */
 
-.offerMedium {
+/* .offerMedium {
   max-width: 172px;
-}
+} */
 
-.short {
+/* .short {
   max-width: 65px;
-}
+} */
 
-.spesialOfferPriceContainer {
+/* .spesialOfferPriceContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   max-width: 966px;
   margin-bottom: 30px;
-}
+} */
 
-.spesialOfferPriceTitle {
+/* .spesialOfferPriceTitle {
   display: inline-block;
   width: 100%;
   max-width: 509px;
@@ -348,9 +415,9 @@
   line-height: 41px;
   letter-spacing: 0em;
   text-align: left;
-}
+} */
 
-.spesialOfferPriceNumberContainer {
+/* .spesialOfferPriceNumberContainer {
   position: relative;
   display: flex;
   align-items: center;
@@ -362,18 +429,18 @@
   border: 1px solid #000000;
   border-radius: 10px;
   background-color: #ffffff;
-}
+} */
 
-.spesialOfferPriceNumberImg {
+/* .spesialOfferPriceNumberImg {
   position: absolute;
   top: 38%;
   left: 16%;
   width: 100%;
   max-width: 129px;
   height: 25px;
-}
+} */
 
-.spesialOfferPriceNumberText {
+/* .spesialOfferPriceNumberText {
   display: inline-block;
   width: 100%;
   max-width: 103px;
@@ -383,9 +450,9 @@
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
-}
+} */
 
-.spesialOfferPriceNumberTotal {
+/* .spesialOfferPriceNumberTotal {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -401,11 +468,147 @@
   line-height: 56px;
   letter-spacing: 0em;
   text-align: left;
+} */
+
+/* New classes */
+.offerTotalPriceCardsContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.offerTotalPriceTextCard {
+  max-width: 477px;
+  height: 264px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+  background-color: #313131;
+}
+
+.offerTotalPriceText,
+.offerTotalPriceTextLast {
+  display: block;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+.offerTotalPriceText {
+  margin-bottom: 30px;
+}
+
+.offerTotalPriceTextLast {
+  margin-bottom: 60px;
+}
+
+.offerTotalPriceTextWrapper {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff401;
+}
+
+.offerTotalPriceTextWrapped {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+.offerTotalPriceProCardContainer {
+  text-align: center;
+}
+
+.offerTotalPriceProCardTitle,
+.offerTotalPricePrimeCardTitle {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+.offerTotalPriceProCard,
+.offerTotalPricePrimeCard {
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  border-radius: 20px;
+}
+
+.offerTotalPriceProCard {
+  background-color: #ffffff;
+}
+
+.offerTotalPricePrimeCard {
+  background-color: #010101;
+}
+
+.offerTotalPriceProCardText,
+.offerTotalPricePrimeCardText {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+.offerTotalPriceCardTextLast {
+  margin-bottom: 50px;
+}
+
+.offerTotalPriceProCardTextBig,
+.offerTotalPricePrimeCardTextBig {
+  font-size: 40px;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+.offerTotalPricePrimeCardContainer {
+  text-align: center;
+}
+
+.offerTotalPriceCardDiscountTextContainer {
+  position: relative;
+}
+
+.spesialOfferPriceNumberImg {
+  position: absolute;
+  top: 23%;
+  left: 0;
+  width: 112px;
+}
+
+.primeImg {
+  left: 3%;
+}
+/* New classes */
+
+.offerTotalPriceBtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offerTotalPriceBtnTitle {
+  display: block;
+  max-width: 517px;
+  font-size: 32px;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
 }
 
 .offerTotalPriceBtnContainer {
   width: 100%;
-  max-width: 943px;
+  max-width: 178px;
   padding: 10px;
   border: 1px solid #515151;
   border-radius: 20px;
@@ -414,7 +617,7 @@
 .offerTotalPriceBtn {
   width: 100%;
   max-width: 945px;
-  height: 88px;
+  height: 66px;
   padding: 25px 40px 25px 40px;
   border: none;
   outline: none;
@@ -436,12 +639,12 @@
 
 .offerContentSuperTitle {
   position: absolute;
-  top: 44.65%;
+  top: 45.5%;
   left: 32.45%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1383px;
+  width: 1699px;
   height: 135px;
   padding: 10px 40px 10px 40px;
   border: 1px solid #7f7f7f;
@@ -582,6 +785,109 @@
     font-size: 16px;
     line-height: 19px;
   }
+
+  .offerProgramIncludeWrapper {
+    display: none;
+  }
+
+  .offerProgramTitle {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 24px;
+  }
+
+  .offerProgram {
+    max-width: 420px;
+  }
+
+  .offerProgramItem {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .offerProgramItem > span {
+    font-size: 16px;
+  }
+
+  .offerProgramWrapper {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+  .offerProgramPrice {
+    display: inline-block;
+    max-width: 478px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 24px;
+  }
+
+  .offerProgramProList,
+  .offerProgramPrimeList {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerProgramProList > span,
+  .offerProgramPrimeList > span {
+    font-size: 16px;
+  }
+
+  .offerProgramImg {
+    display: none;
+  }
+
+  .offerProgramPriceWrapper {
+    margin-top: 20px;
+  }
+
+  .offerProgramTitleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .offerProgramTitleWrapper > .offerProgramTitle {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .offerProgramItem > span {
+    font-size: 16px;
+  }
+
+  .offerTotalPriceText {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .offerTotalPriceTextLast {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .offerTotalPriceTextWrapper {
+    margin-top: 20px;
+  }
+
+  .offerTotalSpecialPriceWrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .offerTotalPriceBtnTitle {
+    text-align: left;
+  }
+
+  .offerTotalPriceFinalText {
+    font-size: 30px;
+  }
+
+  .offerTotalRegularPriceContainer {
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 419px) {
@@ -632,6 +938,108 @@
     width: 61px;
     height: 61px;
   }
+
+  .offerProgram {
+    max-width: 458px;
+  }
+
+  .offerProgramWrapper {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+  .offerProgramPrice {
+    display: inline-block;
+    max-width: 478px;
+  }
+
+  .offerProgramProList,
+  .offerProgramPrimeList {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerProgramProList > span,
+  .offerProgramPrimeList > span {
+    font-size: 16px;
+  }
+
+  .offerTotalPriceTextCard {
+    max-width: 220px;
+    height: auto;
+  }
+
+  .offerTotalPriceText,
+  .offerTotalPriceTextLast {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .offerTotalRegularPriceWrapper {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .offerTotalSpecialPriceWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .offerTotalRegularPriceContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .offerTotalPriceProCardTitle,
+  .offerTotalPriceProCardText {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  .offerTotalPriceTextWrapped {
+    display: block;
+    font-size: 25px;
+  }
+
+  .offerTotalPriceDiscountContainer {
+    position: relative;
+  }
+
+  .offerTotalSpecialPriceImg {
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    width: 95px;
+  }
+
+  .offerTotalPriceSpecialTitle,
+  .offerTotalPriceSpecialText {
+    font-size: 28px;
+  }
+
+  .offerTotalPriceBtnWrapper {
+    display: block;
+    text-align: right;
+  }
+
+  .offerTotalPriceBtnTitle {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .offerTotalPriceBtnContainer {
+    display: inline-block;
+  }
+
+  .offerTotalPriceBtnContainer.pro {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
@@ -671,6 +1079,108 @@
   .offerTotalPriceBtnContainer {
     max-width: 258px;
   }
+
+  .offerProgram {
+    max-width: 458px;
+  }
+
+  .offerProgramWrapper {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+  .offerProgramPrice {
+    display: inline-block;
+    max-width: 478px;
+  }
+
+  .offerProgramProList,
+  .offerProgramPrimeList {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerProgramProList > span,
+  .offerProgramPrimeList > span {
+    font-size: 16px;
+  }
+
+  .offerTotalPriceTextCard {
+    max-width: 240px;
+    height: auto;
+  }
+
+  .offerTotalPriceText,
+  .offerTotalPriceTextLast {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .offerTotalRegularPriceWrapper {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .offerTotalSpecialPriceWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .offerTotalRegularPriceContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .offerTotalPriceProCardTitle,
+  .offerTotalPriceProCardText {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  .offerTotalPriceTextWrapped {
+    display: block;
+    font-size: 25px;
+  }
+
+  .offerTotalPriceDiscountContainer {
+    position: relative;
+  }
+
+  .offerTotalSpecialPriceImg {
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    width: 110px;
+  }
+
+  .offerTotalPriceSpecialTitle,
+  .offerTotalPriceSpecialText {
+    font-size: 32px;
+  }
+
+  .offerTotalPriceBtnWrapper {
+    display: block;
+    text-align: right;
+  }
+
+  .offerTotalPriceBtnTitle {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .offerTotalPriceBtnContainer {
+    display: inline-block;
+  }
+
+  .offerTotalPriceBtnContainer.pro {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (min-width: 360px) and (max-width: 379px) {
@@ -706,6 +1216,105 @@
   .offerTotalPriceBtnContainer {
     max-width: 278px;
   }
+
+  .offerProgram {
+    max-width: 458px;
+  }
+
+  .offerProgramWrapper {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+  .offerProgramPrice {
+    display: inline-block;
+    max-width: 478px;
+  }
+
+  .offerProgramProList,
+  .offerProgramPrimeList {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerProgramProList > span,
+  .offerProgramPrimeList > span {
+    font-size: 16px;
+  }
+
+  .offerTotalPriceTextCard {
+    max-width: 568px;
+    height: auto;
+  }
+
+  .offerTotalPriceText,
+  .offerTotalPriceTextLast {
+    display: inline-block;
+    padding: 0;
+    margin-right: 20px;
+  }
+
+  .offerTotalRegularPriceWrapper {
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  .offerTotalSpecialPriceWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .offerTotalRegularPriceContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .offerTotalPriceProCardTitle,
+  .offerTotalPriceProCardText {
+    font-size: 22px;
+  }
+
+  .offerTotalPriceTextWrapped {
+    display: block;
+  }
+
+  .offerTotalPriceDiscountContainer {
+    position: relative;
+  }
+
+  .offerTotalSpecialPriceImg {
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    width: 110px;
+  }
+
+  .offerTotalPriceSpecialTitle,
+  .offerTotalPriceSpecialText {
+    font-size: 32px;
+  }
+
+  .offerTotalPriceBtnWrapper {
+    display: block;
+    text-align: right;
+  }
+
+  .offerTotalPriceBtnTitle {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .offerTotalPriceBtnContainer {
+    display: inline-block;
+  }
+
+  .offerTotalPriceBtnContainer.pro {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (min-width: 380px) and (max-width: 419px) {
@@ -740,6 +1349,105 @@
 
   .offerTotalPriceBtnContainer {
     max-width: 298px;
+  }
+
+  .offerProgram {
+    max-width: 458px;
+  }
+
+  .offerProgramWrapper {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+  .offerProgramPrice {
+    display: inline-block;
+    max-width: 478px;
+  }
+
+  .offerProgramProList,
+  .offerProgramPrimeList {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerProgramProList > span,
+  .offerProgramPrimeList > span {
+    font-size: 16px;
+  }
+
+  .offerTotalPriceTextCard {
+    max-width: 568px;
+    height: auto;
+  }
+
+  .offerTotalPriceText,
+  .offerTotalPriceTextLast {
+    display: inline-block;
+    padding: 0;
+    margin-right: 20px;
+  }
+
+  .offerTotalRegularPriceWrapper {
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  .offerTotalSpecialPriceWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .offerTotalRegularPriceContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .offerTotalPriceProCardTitle,
+  .offerTotalPriceProCardText {
+    font-size: 22px;
+  }
+
+  .offerTotalPriceTextWrapped {
+    display: block;
+  }
+
+  .offerTotalPriceDiscountContainer {
+    position: relative;
+  }
+
+  .offerTotalSpecialPriceImg {
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    width: 110px;
+  }
+
+  .offerTotalPriceSpecialTitle,
+  .offerTotalPriceSpecialText {
+    font-size: 32px;
+  }
+
+  .offerTotalPriceBtnWrapper {
+    display: block;
+    text-align: right;
+  }
+
+  .offerTotalPriceBtnTitle {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .offerTotalPriceBtnContainer {
+    display: inline-block;
+  }
+
+  .offerTotalPriceBtnContainer.pro {
+    margin-right: 10px;
   }
 }
 
@@ -779,6 +1487,146 @@
 
   .offerTotalPriceBtnContainer {
     max-width: 338px;
+  }
+
+  .offerProgram {
+    max-width: 458px;
+  }
+
+  .offerProgramWrapper {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+  .offerProgramPrice {
+    display: inline-block;
+    max-width: 478px;
+  }
+
+  .offerProgramProList,
+  .offerProgramPrimeList {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerProgramProList > span,
+  .offerProgramPrimeList > span {
+    font-size: 16px;
+  }
+
+  .offerTotalPriceTextCard {
+    max-width: 568px;
+    height: auto;
+  }
+
+  .offerTotalPriceText,
+  .offerTotalPriceTextLast {
+    display: inline-block;
+    padding: 0;
+    margin-right: 20px;
+  }
+
+  .offerTotalRegularPriceWrapper {
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  .offerTotalSpecialPriceWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .offerTotalRegularPriceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .offerTotalPriceProCardTitle,
+  .offerTotalPriceProCardText {
+    font-size: 22px;
+  }
+
+  .offerTotalPriceTextWrapped {
+    display: block;
+  }
+
+  .offerTotalPriceDiscountContainer {
+    position: relative;
+  }
+
+  .offerTotalSpecialPriceImg {
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    width: 110px;
+  }
+
+  .offerTotalPriceSpecialTitle,
+  .offerTotalPriceSpecialText {
+    font-size: 32px;
+  }
+
+  .offerTotalPriceBtnWrapper {
+    display: block;
+    text-align: right;
+  }
+
+  .offerTotalPriceBtnTitle {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .offerTotalPriceBtnContainer {
+    display: inline-block;
+  }
+
+  .offerTotalPriceBtnContainer.pro {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .offerTotalPriceProCardContainer,
+  .offerTotalPricePrimeCardContainer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .offerProgramIncludeWrapper {
+    display: block;
+  }
+
+  .offerProgramTitleWrapper,
+  .offerProgramPriceWrapper {
+    display: none;
+  }
+
+  .offerTotalPriceFinalText {
+    font-size: 34px;
+  }
+
+  .offerTotalPriceDiscountWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .offerTotalRegularPriceContainer {
+    align-items: center;
+  }
+
+  .offerTotalRegularPriceWrapper {
+    display: none;
+  }
+
+  .offerTotalSpecialPriceWrapper {
+    display: none;
   }
 }
 
@@ -837,6 +1685,110 @@
   .spesialOfferPriceNumberImg {
     left: 38%;
   }
+
+  .offerProgram {
+    max-width: 458px;
+  }
+
+  .offerProgramItem > span {
+    font-size: 16px;
+  }
+
+  .offerProgramWrapper {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+  .offerProgramPrice {
+    display: inline-block;
+    max-width: 478px;
+  }
+
+  .offerProgramProList,
+  .offerProgramPrimeList {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .offerProgramProList > span,
+  .offerProgramPrimeList > span {
+    font-size: 16px;
+  }
+
+  .offerTotalPriceTextCard {
+    max-width: 568px;
+    height: auto;
+  }
+
+  .offerTotalPriceText,
+  .offerTotalPriceTextLast {
+    display: inline-block;
+    padding: 0;
+    margin-right: 20px;
+  }
+
+  .offerTotalRegularPriceWrapper {
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  .offerTotalSpecialPriceWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .offerTotalRegularPriceContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .offerTotalPriceProCardTitle,
+  .offerTotalPriceProCardText {
+    font-size: 22px;
+  }
+
+  .offerTotalPriceTextWrapped {
+    display: block;
+  }
+
+  .offerTotalPriceDiscountContainer {
+    position: relative;
+  }
+
+  .offerTotalSpecialPriceImg {
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    width: 110px;
+  }
+
+  .offerTotalPriceSpecialTitle,
+  .offerTotalPriceSpecialText {
+    font-size: 32px;
+  }
+
+  .offerTotalPriceBtnWrapper {
+    display: block;
+    text-align: right;
+  }
+
+  .offerTotalPriceBtnTitle {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+
+  .offerTotalPriceBtnContainer {
+    display: inline-block;
+  }
+
+  .offerTotalPriceBtnContainer.pro {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -847,17 +1799,34 @@
   .textFifth {
     max-width: 205px;
   }
+
+  .offerProgramWrapper {
+    padding-left: 40px;
+  }
+
+  .offerTotalPriceContainer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
   .offerContainer {
     max-width: 1200px;
   }
+
+  .offerContentSuperTitle {
+    left: 19.2%;
+  }
 }
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
   .offerContainer {
     max-width: 1200px;
+  }
+
+  .offerContentSuperTitle {
+    left: 19.2%;
   }
 }
 
@@ -871,7 +1840,7 @@
   }
 
   .offerContentSuperTitle {
-    left: 29%;
+    left: 17.1%;
   }
 }
 
@@ -885,6 +1854,6 @@
   }
 
   .offerContentSuperTitle {
-    left: 24.9%;
+    left: 14.8%;
   }
 }
