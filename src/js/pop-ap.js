@@ -1,3 +1,7 @@
+// 'http://http://localhost:1234/?utm_source={source}&utm_medium=ts_k&utm_campaign=mk_8.04_kab1&utm_content={advertisingName}&utm_term={adsetName}'
+
+const urlWithUtms = window.location;
+console.log('Url with utms: ', urlWithUtms);
 // Open modal buttons
 const specialOfferProButton = document.querySelector(
   '[special-offer-pro-button]',
