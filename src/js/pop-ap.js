@@ -1,7 +1,7 @@
 // 'http://http://localhost:1234/?utm_source={source}&utm_medium=ts_k&utm_campaign=mk_8.04_kab1&utm_content={advertisingName}&utm_term={adsetName}'
 
-const urlWithUtms = window.location;
-console.log('Url with utms: ', urlWithUtms);
+// const urlWithUtms = window.location;
+// console.log('Url with utms: ', urlWithUtms);
 // Open modal buttons
 const specialOfferProButton = document.querySelector(
   '[special-offer-pro-button]',
@@ -67,7 +67,7 @@ specialOfferProSubmitBtn.addEventListener('click', () => {
   redirect(form, 'specialOfferProSubmitBtn');
 });
 specialOfferPrimeSubmitBtn.addEventListener('click', () => {
-  const form = specialOfferProModal.children[0].children[0].children[2];
+  const form = specialOfferPrimeModal.children[0].children[0].children[2];
 
   redirect(form, 'specialOfferPrimeSubmitBtn');
 });
@@ -134,22 +134,27 @@ function closeModal(modal) {
 }
 
 function redirect(form, modal) {
-  // const formChildren = [...form.children];
-  // const inputsList = [];
-  // formChildren.forEach(child => {
-  //   const children = [...child.children].filter(
-  //     child => child.nodeName === 'INPUT',
-  //   );
+  const formChildren = [...form.children];
+  const inputsList = [];
+  formChildren.forEach(child => {
+    const children = [...child.children].filter(
+      child => child.nodeName === 'INPUT',
+    );
 
-  //   if (children[0] !== undefined) {
-  //     inputsList.push(children[0]);
-  //   }
-  // });
+    if (children[0] !== undefined) {
+      inputsList.push(children[0]);
+    }
+  });
 
-  // if (inputsList.find(input => input.value === '' || input.value === null)) {
-  //   return;
-  // }
+  if (inputsList.find(input => input.value === '' || input.value === null)) {
+    return;
+  }
 
-  // window.open('https://privatebusiness.academy/finish-reg/');
+  if (modal === 'specialOfferProSubmitBtn') {
+    window.open('https://secure.wayforpay.com/button/bda01eb3abc7a');
+  } else if (modal === 'specialOfferPrimeSubmitBtn') {
+    window.open('https://secure.wayforpay.com/button/b2ea6fb4abf11');
+  }
+
   closeModal(modal);
 }
