@@ -385,3 +385,9 @@
     max-width: 1202px;
   }
 }
+
+.reviewsCard {
+  display: block;
+  max-width: 1200px;
+  height: 600px;
+}
