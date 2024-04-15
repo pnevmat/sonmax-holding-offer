@@ -793,13 +793,21 @@
     font-size: 24px;
   }
 
+  .offerProgramTitle.small {
+    font-size: 20px;
+  }
+
+  .offerProgramTitle.padding {
+    padding-left: 30px;
+  }
+
   .offerProgram {
     max-width: 420px;
     padding: 15px;
   }
 
   .offerProgramItem {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 5px;
   }
 
@@ -823,7 +831,9 @@
 
   .offerProgramProList,
   .offerProgramPrimeList {
+    display: inline-flex;
     justify-content: space-around;
+    max-width: 8px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -833,13 +843,21 @@
     font-size: 16px;
   }
 
-  .offerProgramImg {
+  /* .offerProgramImg {
     display: none;
-  }
+  } */
 
   .offerProgramPriceWrapper {
     margin-top: 20px;
   }
+
+  /* .offerProgramIncludeWrapper.center.pro {
+    max-width: 53px;
+  } */
+
+  /* .offerProgramIncludeWrapper.center {
+    max-width: 63px;
+  } */
 
   .offerProgramTitleWrapper {
     display: flex;
@@ -1091,9 +1109,9 @@
     max-width: 128px;
   }
 
-  .offerProgramCardWrapper {
+  /* .offerProgramCardWrapper {
     max-width: 60%;
-  }
+  } */
 }
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
@@ -1205,7 +1223,7 @@
   }
 
   .offerProgramCardWrapper {
-    max-width: 60%;
+    max-width: 67%;
   }
 }
 
@@ -1260,7 +1278,7 @@
 
   .offerProgramProList,
   .offerProgramPrimeList {
-    height: 760px;
+    height: 740px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -1318,7 +1336,7 @@
   }
 
   .offerProgramCardWrapper {
-    max-width: 60%;
+    max-width: 67%;
   }
 }
 
@@ -1373,7 +1391,7 @@
 
   .offerProgramProList,
   .offerProgramPrimeList {
-    height: 720px;
+    height: 700px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -1431,7 +1449,7 @@
   }
 
   .offerProgramCardWrapper {
-    max-width: 60%;
+    max-width: 67%;
   }
 }
 
@@ -1544,7 +1562,7 @@
   }
 
   .offerProgramCardWrapper {
-    max-width: 60%;
+    max-width: 67%;
   }
 }
 
