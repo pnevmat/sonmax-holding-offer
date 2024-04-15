@@ -257,6 +257,10 @@
     margin-top: 20px;
   }
 
+  .programLessonCardListWrapper > div {
+    width: 100%;
+  }
+
   .programLessonCardListText {
     font-size: 16px;
     line-height: 19px;
