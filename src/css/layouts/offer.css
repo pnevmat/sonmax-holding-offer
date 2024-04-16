@@ -870,6 +870,133 @@
     padding-left: 0;
   }
 
+  .offerTotalPriceCardsContainerMob {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .offerTotalPriceCardMob {
+    width: 48%;
+  }
+
+  .offerTotalPriceCardTextWrapperMob {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.regularPrice {
+    margin-bottom: 106px;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.bonus {
+    margin-top: 0;
+    margin-bottom: 158px;
+  }
+
+  .offerTotalPriceCardTextMob {
+    display: block;
+    text-align: center;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0em;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.pro,
+  .offerTotalPriceCardTextWrapperMob.prime {
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.pro {
+    background-color: #ffffff;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.prime {
+    background-color: #313131;
+  }
+
+  .package {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0em;
+  }
+
+  .offerTotalPriceCardTextGroupWrapperMob {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .offerTotalPriceCardTextContainerMob {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .offerTotalPriceCardTextGroupWrapperMob > .offerTotalPriceCardTextWrapperMob {
+    padding: 0;
+  }
+
+  .offerTotalPriceCardImgMob {
+    position: absolute;
+    top: 23%;
+    left: -5%;
+    width: 100%;
+  }
+
+  .offerFinalPriceCardTextMob {
+    display: block;
+    text-align: center;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0em;
+  }
+
+  .offerTotalPriceTitleWrapperMob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #313131;
+  }
+
+  .bonusPrice {
+    top: 25.3%;
+  }
+
+  .finalPrice {
+    top: 54.6%;
+  }
+
+  .offerTotalPriceTitleContainerMob {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff401;
+  }
+
+  .offerTotalPriceTitleMob.price {
+    margin-bottom: 15px;
+  }
+
+  .offerTotalPriceTitleMob {
+    display: block;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  .offerTotalPriceTitleMob.bonusPrice,
+  .offerTotalPriceTitleMob.finalPrice {
+    padding-left: 0;
+  }
+
   .offerProgramItem > span {
     font-size: 16px;
   }
@@ -895,15 +1022,15 @@
     font-size: 30px;
   }
 
-  .offerTotalPriceTextMobile {
+  /* .offerTotalPriceTextMobile {
     display: block;
     padding-left: 10px;
     font-size: 24px;
     font-weight: 600;
     line-height: 26px;
-  }
+  } */
 
-  .offerTotalPriceTextMobile.absolute {
+  /* .offerTotalPriceTextMobile.absolute {
     position: absolute;
     top: 22%;
     left: 0;
@@ -913,12 +1040,13 @@
     padding: 10px;
     border-radius: 10px;
     background-color: #ffffff;
-  }
+  } */
 
   .offerTotalPriceCardsContainer {
-    display: flex;
+    display: none;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
   }
 
   .offerTotalPriceText,
@@ -948,10 +1076,6 @@
     font-size: 24px;
   }
 
-  .offerTotalRegularPriceWrapper {
-    display: none;
-  }
-
   .offerTotalPriceProCardContainer,
   .offerTotalPricePrimeCardContainer {
     width: 47%;
@@ -962,20 +1086,20 @@
     padding: 20px;
   }
 
-  .offerTotalPriceProCardTitle,
+  /* .offerTotalPriceProCardTitle,
   .offerTotalPricePrimeCardTitle {
     font-size: 34px;
     line-height: 41px;
     letter-spacing: 0em;
-  }
+  } */
 
-  .offerTotalPriceProCardText,
+  /* .offerTotalPriceProCardText,
   .offerTotalPricePrimeCardText {
     margin-bottom: 50px;
     font-size: 34px;
     line-height: 41px;
     letter-spacing: 0em;
-  }
+  } */
 
   .offerTotalPriceCardTextLast {
     margin-bottom: 150px;
@@ -1056,6 +1180,14 @@
   .offerProgramProList > span,
   .offerProgramPrimeList > span {
     font-size: 16px;
+  }
+
+  .offerTotalPriceTitleWrapperMob {
+    max-width: 280px;
+  }
+
+  .offerTotalPriceCardImgMob {
+    left: 0;
   }
 
   .offerTotalPriceTextCard {
@@ -1175,6 +1307,27 @@
     font-size: 16px;
   }
 
+  .offerTotalPriceTitleWrapperMob {
+    max-width: 300px;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.bonus {
+    margin-bottom: 132px;
+  }
+
+  .bonusPrice {
+    top: 26.4%;
+  }
+
+  .finalPrice {
+    top: 57%;
+  }
+
+  .offerTotalPriceCardImgMob {
+    left: 5%;
+    max-width: 110px;
+  }
+
   .offerTotalPriceTextCard {
     top: 33%;
     max-width: 568px;
@@ -1286,6 +1439,27 @@
   .offerProgramProList > span,
   .offerProgramPrimeList > span {
     font-size: 16px;
+  }
+
+  .offerTotalPriceTitleWrapperMob {
+    max-width: 320px;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.bonus {
+    margin-bottom: 132px;
+  }
+
+  .bonusPrice {
+    top: 26.4%;
+  }
+
+  .finalPrice {
+    top: 57%;
+  }
+
+  .offerTotalPriceCardImgMob {
+    left: 8%;
+    max-width: 110px;
   }
 
   .offerTotalPriceTextCard {
@@ -1401,6 +1575,27 @@
     font-size: 16px;
   }
 
+  .offerTotalPriceTitleWrapperMob {
+    max-width: 340px;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.bonus {
+    margin-bottom: 132px;
+  }
+
+  .bonusPrice {
+    top: 26.4%;
+  }
+
+  .finalPrice {
+    top: 57%;
+  }
+
+  .offerTotalPriceCardImgMob {
+    left: 11%;
+    max-width: 110px;
+  }
+
   .offerTotalPriceTextCard {
     top: 34%;
     max-width: 568px;
@@ -1514,6 +1709,27 @@
     font-size: 16px;
   }
 
+  .offerTotalPriceTitleWrapperMob {
+    max-width: 380px;
+  }
+
+  .offerTotalPriceCardTextWrapperMob.bonus {
+    margin-bottom: 132px;
+  }
+
+  .bonusPrice {
+    top: 26.4%;
+  }
+
+  .finalPrice {
+    top: 57%;
+  }
+
+  .offerTotalPriceCardImgMob {
+    left: 16%;
+    max-width: 110px;
+  }
+
   .offerTotalPriceTextCard {
     top: 34%;
     max-width: 568px;
@@ -1579,6 +1795,11 @@
 
   .offerProgramTitleWrapper,
   .offerProgramPriceWrapper {
+    display: none;
+  }
+
+  .offerTotalPriceTitleMob,
+  .offerTotalPriceCardsContainerMob {
     display: none;
   }
 

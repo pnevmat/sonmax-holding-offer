@@ -62,6 +62,14 @@ button:focus {
   text-align: center;
 }
 
+.bacgroundBlack {
+  background-color: #010101;
+}
+
+.bacgroundWhite {
+  background-color: #ffffff;
+}
+
 .white {
   color: #ffffff;
 }
