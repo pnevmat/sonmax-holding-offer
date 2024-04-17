@@ -691,6 +691,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
   .offerTitleContainer,
   .offerBonusesContainer,
   .offerTotalPriceContainer {
@@ -888,12 +889,12 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.regularPrice {
-    margin-bottom: 46px;
+    margin-bottom: 56px;
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
     margin-top: 0;
-    margin-bottom: 72px;
+    margin-bottom: 82px;
   }
 
   .offerTotalPriceCardTextMob {
@@ -1181,7 +1182,7 @@
   }
 
   .finalPrice {
-    top: 58.5%;
+    top: 59%;
   }
 
   .offerTotalPriceCardImgMob {
@@ -1310,7 +1311,7 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
-    margin-bottom: 72px;
+    margin-bottom: 82px;
   }
 
   .bonusPrice {
@@ -1318,7 +1319,7 @@
   }
 
   .finalPrice {
-    top: 58.5%;
+    top: 59%;
   }
 
   .offerTotalPriceCardImgMob {
@@ -1444,7 +1445,11 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
-    margin-bottom: 72px;
+    margin-bottom: 82px;
+  }
+  .offerTotalPriceTitleContainerMob.bonusPrice,
+  .offerTotalPriceTitleContainerMob.finalPrice {
+    max-width: 350px;
   }
 
   .bonusPrice {
@@ -1452,7 +1457,7 @@
   }
 
   .finalPrice {
-    top: 58.5%;
+    top: 59%;
   }
 
   .offerTotalPriceCardImgMob {
@@ -1578,7 +1583,7 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
-    margin-bottom: 72px;
+    margin-bottom: 82px;
   }
 
   .bonusPrice {
@@ -1586,7 +1591,7 @@
   }
 
   .finalPrice {
-    top: 58.5%;
+    top: 59%;
   }
 
   .offerTotalPriceCardImgMob {
@@ -1716,7 +1721,7 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
-    margin-bottom: 72px;
+    margin-bottom: 82px;
   }
 
   .bonusPrice {
@@ -1724,7 +1729,7 @@
   }
 
   .finalPrice {
-    top: 58.5%;
+    top: 59%;
   }
 
   .offerTotalPriceCardImgMob {
