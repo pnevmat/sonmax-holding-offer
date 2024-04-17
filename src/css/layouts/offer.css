@@ -691,7 +691,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
   .offerTitleContainer,
   .offerBonusesContainer,
   .offerTotalPriceContainer {
@@ -874,12 +873,13 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 30px;
   }
 
   .offerTotalPriceCardMob {
-    width: 48%;
+    width: 100%;
+    max-width: 150px;
   }
 
   .offerTotalPriceCardTextWrapperMob {
@@ -888,12 +888,12 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.regularPrice {
-    margin-bottom: 106px;
+    margin-bottom: 46px;
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
     margin-top: 0;
-    margin-bottom: 158px;
+    margin-bottom: 72px;
   }
 
   .offerTotalPriceCardTextMob {
@@ -956,28 +956,18 @@
     letter-spacing: 0em;
   }
 
-  .offerTotalPriceTitleWrapperMob {
+  /* .offerTotalPriceTitleWrapperMob {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #313131;
+  } */
+
+  .offerTotalPriceTitleContainerMob {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #313131;
-  }
-
-  .bonusPrice {
-    top: 25.3%;
-  }
-
-  .finalPrice {
-    top: 54.6%;
-  }
-
-  .offerTotalPriceTitleContainerMob {
-    padding: 10px;
-    border-radius: 20px;
-    background-color: #fff401;
+    padding-left: 10px;
   }
 
   .offerTotalPriceTitleMob.price {
@@ -1186,6 +1176,14 @@
     max-width: 280px;
   }
 
+  .bonusPrice {
+    top: 33%;
+  }
+
+  .finalPrice {
+    top: 58.5%;
+  }
+
   .offerTotalPriceCardImgMob {
     left: 0;
   }
@@ -1312,19 +1310,19 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
-    margin-bottom: 132px;
+    margin-bottom: 72px;
   }
 
   .bonusPrice {
-    top: 26.4%;
+    top: 33%;
   }
 
   .finalPrice {
-    top: 57%;
+    top: 58.5%;
   }
 
   .offerTotalPriceCardImgMob {
-    left: 5%;
+    left: 2%;
     max-width: 110px;
   }
 
@@ -1446,19 +1444,19 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
-    margin-bottom: 132px;
+    margin-bottom: 72px;
   }
 
   .bonusPrice {
-    top: 26.4%;
+    top: 33%;
   }
 
   .finalPrice {
-    top: 57%;
+    top: 58.5%;
   }
 
   .offerTotalPriceCardImgMob {
-    left: 8%;
+    left: 2%;
     max-width: 110px;
   }
 
@@ -1580,19 +1578,19 @@
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
-    margin-bottom: 132px;
+    margin-bottom: 72px;
   }
 
   .bonusPrice {
-    top: 26.4%;
+    top: 33%;
   }
 
   .finalPrice {
-    top: 57%;
+    top: 58.5%;
   }
 
   .offerTotalPriceCardImgMob {
-    left: 11%;
+    left: 2%;
     max-width: 110px;
   }
 
@@ -1709,24 +1707,28 @@
     font-size: 16px;
   }
 
+  .offerTotalPriceCardMob {
+    max-width: 190px;
+  }
+
   .offerTotalPriceTitleWrapperMob {
     max-width: 380px;
   }
 
   .offerTotalPriceCardTextWrapperMob.bonus {
-    margin-bottom: 132px;
+    margin-bottom: 72px;
   }
 
   .bonusPrice {
-    top: 26.4%;
+    top: 33%;
   }
 
   .finalPrice {
-    top: 57%;
+    top: 58.5%;
   }
 
   .offerTotalPriceCardImgMob {
-    left: 16%;
+    left: 12%;
     max-width: 110px;
   }
 
