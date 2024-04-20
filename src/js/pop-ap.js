@@ -60,16 +60,19 @@ specialOfferPrimeCloseModalBtn.addEventListener('click', () =>
 //   closeModal('reviewsModalCloseBtn'),
 // );
 
+const regType = 'Реєстрація на стратегічну сесію з ціною';
 // Submit form listeners
 specialOfferProSubmitBtn.addEventListener('click', () => {
+  const packge = 'Пакет: Pro';
   const form = specialOfferProModal.children[0].children[0].children[2];
 
-  redirect(form, 'specialOfferProSubmitBtn');
+  redirect(form, 'specialOfferProSubmitBtn', 1, packge);
 });
 specialOfferPrimeSubmitBtn.addEventListener('click', () => {
+  const packge = 'Пакет: Prime';
   const form = specialOfferPrimeModal.children[0].children[0].children[2];
 
-  redirect(form, 'specialOfferPrimeSubmitBtn');
+  redirect(form, 'specialOfferPrimeSubmitBtn', 2, packge);
 });
 // reviewsSubmitBtn.addEventListener('click', () => {
 //   const form = reviewsModal.children[0].children[0].children[2];
@@ -133,7 +136,7 @@ function closeModal(modal) {
   // }
 }
 
-function redirect(form, modal) {
+function redirect(form, modal, formNumber, packge) {
   const formChildren = [...form.children];
   const inputsList = [];
   formChildren.forEach(child => {
@@ -150,11 +153,86 @@ function redirect(form, modal) {
     return;
   }
 
-  if (modal === 'specialOfferProSubmitBtn') {
-    window.open('https://secure.wayforpay.com/button/bda01eb3abc7a');
-  } else if (modal === 'specialOfferPrimeSubmitBtn') {
-    window.open('https://secure.wayforpay.com/button/b2ea6fb4abf11');
+  if (validateForm(formNumber)) {
+    const phone = document.getElementById('phone' + formNumber).value;
+    const email = document.getElementById('email' + formNumber).value;
+    const name = document.getElementById('name' + formNumber).value;
+
+    const botToken = '6925775224:AAFChKopPUZoRHjTOzhuT7DqFmJ9E9Dh47A';
+    const chatId = '-1002082922592';
+    const message = `${regType} \n${packge} \n${name} \n${phone} \n${email}`;
+
+    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        chat_id: chatId,
+        text: message,
+      }),
+    })
+      .then(response => response.json())
+      .then(data => {
+        // alert("Application sent! Thank you!");
+        // window.location.href = '/methodology/thank';
+      })
+      .catch(error => {
+        alert('Error sending application!');
+      });
+
+    if (modal === 'specialOfferProSubmitBtn') {
+      window.open('https://secure.wayforpay.com/button/bda01eb3abc7a');
+    } else if (modal === 'specialOfferPrimeSubmitBtn') {
+      window.open('https://secure.wayforpay.com/button/b2ea6fb4abf11');
+    }
   }
 
   closeModal(modal);
+}
+
+function validateForm(formNumber) {
+  const name = document.getElementById('name' + formNumber).value.trim();
+  const email = document.getElementById('email' + formNumber).value.trim();
+  const phone = document.getElementById('phone' + formNumber).value.trim();
+
+  // const nameError = document.getElementById('nameError' + formNumber);
+  // const emailError = document.getElementById('emailError' + formNumber);
+  // const phoneError = document.getElementById('phoneError' + formNumber);
+
+  let isValid = true;
+
+  if (name.length < 4) {
+    // nameError.textContent = 'Ім’я повинно містити принаймні 4 букви';
+    isValid = false;
+  } else {
+    // nameError.textContent = '';
+  }
+
+  if (!validateEmail(email)) {
+    // emailError.textContent = 'Введіть коректну електронну адресу';
+    isValid = false;
+  } else {
+    // emailError.textContent = '';
+  }
+
+  if (!validatePhone(phone)) {
+    // phoneError.textContent = 'Введіть коректний номер телефону';
+    isValid = false;
+  } else {
+    // phoneError.textContent = '';
+  }
+
+  return isValid;
+}
+
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+function validatePhone(phone) {
+  const phoneRegex =
+    /^\+?(\d{1,3})?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{2})[-. ]*(\d{2})$/;
+  return phoneRegex.test(phone);
 }
