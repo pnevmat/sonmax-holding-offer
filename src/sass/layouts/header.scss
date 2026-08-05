@@ -1,6 +1,8 @@
+@use '../utils/mixins';
+
 .header {
   width: 100%;
-  background-image: url('../../images/header-background.png');
+	@include mixins.responsive-bg('../images/header-background', 'png');
   background-repeat: no-repeat;
 }
 
@@ -13,7 +15,7 @@
   margin-right: auto;
   margin-left: auto;
   text-align: left;
-  background-image: url('../../images/man-bacground.png');
+  @include mixins.responsive-bg('../images/man-bacground', 'png');
   background-repeat: no-repeat;
 }
 

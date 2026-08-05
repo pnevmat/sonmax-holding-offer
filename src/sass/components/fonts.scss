@@ -1,0 +1,49 @@
+// @font-face {
+// 	font-family: 'Orchidea Pro SmBd';
+// 	font-style: normal;
+// 	font-weight: 600;
+// 	src: local('Orchidea Pro SemiBold'), local('OrchideaPro-SemiBold'),
+// 			url('../fonts/orchidea-pro/OrchideaPro-SemiBold.woff') format('woff'),
+// 			url('../fonts/orchidea-pro/OrchideaPro-SemiBold.woff2') format('woff2');
+// }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('Proxima-Nova-Regular'),
+    url('../fonts/proxima-nova/ProximaNovaRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Proxima Nova Medium'), local('Proxima-Nova-Medium'),
+    url('../fonts/proxima-nova/ProximaNova-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Proxima Nova SemiBold'), local('Proxima-Nova-SemiBold'),
+    url('../fonts/proxima-nova/ProximaNova-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Proxima Nova Bold'), local('Proxima-Nova-Bold'),
+	// url('../fonts/proxima-nova/ProximaNova-Semibold.woff') format('woff');
+    url('../fonts/proxima-nova/ProximaNovaBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Proxima Nova Black'), local('Proxima-Nova-Black'),
+    url('../fonts/proxima-nova/ProximaNova-Extrabld.woff') format('woff');
+}
