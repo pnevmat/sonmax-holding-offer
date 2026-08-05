@@ -2,7 +2,7 @@
   width: 100%;
   background-color: #010101;
 }
-
+/* programStepText */
 .programContainer {
   width: 100%;
   max-width: 1200px;
@@ -195,7 +195,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
+  /* programLessonsList */
   .programSubtitleWrapper,
   .programTitle {
     padding-right: 30px;
